@@ -1,0 +1,69 @@
+== Multi-repo vs Monorepo
+
+Gradle has tended to support 2 main patterns for software composition
+
+== Multi-repo
+
+* Multiple software components kept in separate VCS repositories
+* Each component built and published separately
+* Integration of components is done via binary dependencies.
+
+=== Multi-repo (Example)
+
+TBD-example of multi-repo
+
+=== Multi-repo Pros/Cons
+
+*Pro*:
+
+* TBD
+* TBD
+* TBD
+
+*Con*:
+
+* TBD
+* TBD
+* TBD
+
+== Monorepo
+
+* Multiple software components kept in a single VCS repository
+* Typically, the build is configured as one multi-project build
+* Integration of components via project dependencies.
+
+=== Monorepo (Example)
+
+TBD-example of Monorepo
+
+=== Monorepo Pros/Cons
+
+*Pro*:
+
+* TBD
+* TBD
+* TBD
+
+*Con*:
+
+* TBD
+* TBD
+* TBD
+
+== Jargon
+
+* Build
+* Projects
+* Composites
+* Participants
+
+== Conclusion...
+
+* TBD
+
+=== But...
+
+* Dependency substitution is limited 
+   - Only works with Java projects
+   - Only works when all participants have the same version of Gradle
+* Composite builds require special tooling to use TBD

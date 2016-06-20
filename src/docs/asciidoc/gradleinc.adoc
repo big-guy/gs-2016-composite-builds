@@ -1,0 +1,14 @@
+[data-background="reveal.js/css/theme/summit-intro.png"]
+== Gradle Inc
+
+*Motto*: Build Happiness
+
+*Mission*: To revolutionize the way
+
+software is built and shipped. We exist to end once-and-for-all the worst things about big software and restore the reason you got into coding in the first place.
+
+*We’re Hiring*: Gradle is hiring front-end, back-end, and core software engineers. Visit https://gradle.org/jobs[gradle.org/jobs] to apply.
+
+[%notitle]
+== Build Scans
+image::build-scans.png[]

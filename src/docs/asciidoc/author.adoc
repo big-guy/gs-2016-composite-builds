@@ -1,0 +1,17 @@
+== Who am I & Agenda
+
+[source,groovy]
+----
+
+task sterlingGreene(type: Speaker) {
+    group = "Gradle Core Developer"
+    description = "Developer for 10 years"
+
+    doLast {
+        presentSlides()
+        showDemo()
+        answerQuestions()
+    }
+}
+
+----
