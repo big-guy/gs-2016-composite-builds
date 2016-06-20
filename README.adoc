@@ -1,5 +1,3 @@
 = Composite Builds with Gradle
 
 Talk given at Gradle Summit 2016.
-
-See http://melix.github.io/gr8conf2016-variant-aware-dep-mgmt
