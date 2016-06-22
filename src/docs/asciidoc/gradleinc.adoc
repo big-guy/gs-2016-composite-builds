@@ -1,14 +1,24 @@
-[data-background="reveal.js/css/theme/summit-intro.png"]
 == Gradle Inc
 
 *Motto*: Build Happiness
 
-*Mission*: To revolutionize the way
-
-software is built and shipped. We exist to end once-and-for-all the worst things about big software and restore the reason you got into coding in the first place.
+*Mission*: To revolutionize the way software is built and shipped. We exist to end once-and-for-all the worst things about big software and restore the reason you got into coding in the first place.
 
 *We’re Hiring*: Gradle is hiring front-end, back-end, and core software engineers. Visit https://gradle.org/jobs[gradle.org/jobs] to apply.
 
-[%notitle]
-== Build Scans
-image::build-scans.png[]
+== Introducing Gradle Cloud Services
+
+The first service, *Gradle Build Scans*, is now available.
+
+[cols="50a,50a"]
+|===
+|
+* Insights into your build
+* View and share via URL
+* Debug, optimize and refine
+* Analyze all of your builds 
+|image:build-scans.png[]
+|===
+
+
+Stop by the Gradle Lounge and create a Build Scan!

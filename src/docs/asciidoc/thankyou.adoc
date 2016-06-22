@@ -1,0 +1,4 @@
+[data-background="images/summit-mountains.png"]
+== Thank you!
+
+Follow me: http://twitter.com/argfile[@argfile]

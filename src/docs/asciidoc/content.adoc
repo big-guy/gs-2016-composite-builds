@@ -1,30 +1,42 @@
 == Multi-repo vs Monorepo
 
-Gradle has tended to support 2 main patterns for software composition
+Gradle has tended to support two main patterns for software composition
 
 == Multi-repo
 
-* Multiple software components kept in separate VCS repositories
+* Software components kept in separate VCS repositories
 * Each component built and published separately
 * Integration of components is done via binary dependencies.
 
-=== Multi-repo (Example)
+=== Multi-repo (cont.)
 
-TBD-example of multi-repo
+* In Gradle, this usually shows up as multiple `settings.gradle` files
 
-=== Multi-repo Pros/Cons
+```groovy
+rootProject.name = "myApp"
+include 'common', 'util', 'app'
+```
 
-*Pro*:
+* Each repository could be a single project or a multi-project build.
+* Dependencies between repositories are through Group, Artifact, Version (`GAV`) coordinates
 
-* TBD
-* TBD
-* TBD
+```groovy
+dependencies {
+    compile 'com.example:someModule:1.0.0'
+}
+```
 
-*Con*:
+=== Multi-repo Advantages
 
-* TBD
-* TBD
-* TBD
+* Projects are kept separated by repository boundaries
+* Projects can have very different release processes/schedules
+* Developers can checkout/work on a subset of the overall project
+
+=== Multi-repo Disadvantages
+
+* Binary integration can be difficult to maintain (mistakes happen)
+* Usually a local repository is used by developers to integrate on their machine
+* Trying to create a monolithic build from independent pieces can lead to different builds between CI and developers
 
 == Monorepo
 
@@ -32,38 +44,114 @@ TBD-example of multi-repo
 * Typically, the build is configured as one multi-project build
 * Integration of components via project dependencies.
 
-=== Monorepo (Example)
+=== Monorepo (cont.)
 
-TBD-example of Monorepo
+* In Gradle, this usually shows up as a single `settings.gradle` in the root of the repository.
 
-=== Monorepo Pros/Cons
+```groovy
+rootProject.name = "allMyProjects"
+include 'common', 'util', 'app'
+include 'someModule'
+... snip 100 lines ...
+include 'lib100', 'app2'
+```
 
-*Pro*:
+* Dependencies between repositories are through Gradle project dependencies
 
-* TBD
-* TBD
-* TBD
+```groovy
+dependencies {
+    compile project(":someModule")
+}
+```
 
-*Con*:
+=== Monorepo Advantages
 
-* TBD
-* TBD
-* TBD
+* All/most dependencies are kept in one place and built from source
+* Single-entry point for building everything
+* No question if you're building with the "correct" version
 
-== Jargon
+=== Monorepo Disadvantages
 
-* Build
-* Projects
-* Composites
-* Participants
+* Build/IDE performance can suffer if you do not use partial checkouts
+* Organization/teams may be structured in a way that makes monorepo harder to use
+* Important to maintain discipline to keep projects separated/focused
+* A single developer may not be able to build everything
 
-== Conclusion...
+== Composite Build
 
-* TBD
+Breaks down differences between external dependencies and project dependencies to allow you to _compose_ your software components in the way you need.
 
-=== But...
+[%notitle]
+[data-background="images/tf-g1.jpg"]
+=== Composite Build Assemble!
 
+=== Gradle Jargon
+
+* A Gradle project produces zero or more *components* (e.g., a Java project produces a jar)
+* A Gradle *build* is made up of one or more *projects*.
+* A Gradle *composite* build is made up of one or more *builds*.
+* We call a build in a composite a *participant*.
+
+=== Composite Build
+
+* Composite build leverages the existing https://docs.gradle.org/current/userguide/dependency_management.html#module_to_project_substitution[dependency substitution support] added in https://docs.gradle.org/2.5/release-notes.html[2.5].
+* Our goal is to allow multiple discrete Gradle builds to be combined in a way to support both the monorepo and multi-repo use cases.
+* Dependencies are expressed with `GAV` coordinates and Gradle substitutes project dependencies when appropriate
+* Cross-participant tasks are wired together as if everything was a single multi-project build
+* Honorable mention: https://github.com/prezi/pride[Prezi Pride] is similar - replaces external dependencies with project dependencies
+
+=== Differences from a multi-project builds
+
+* Participants can use different Gradle versions.
+* All participants are configured separately.
+   - `allprojects` and `subprojects` do not work across participants.
+   - Dependencies between participants use external `GAV` coordinates.
+
+=== Differences from a multi-project builds (cont.)
+
+* `buildscript` dependencies can come from another participant.
+* No built-in way to define composites yet (e.g., through `settings.gradle`)
+   - Demo here uses an experimental branch that demonstrates how this could be accomplished.
+   - Tooling API/programmatic interface is usable today (e.g., used by Buildship 2.0).
+
+=== Composite Advantages
+
+* Like a multi-repo, developers can check out the pieces they want to work on
+* Like a monorepo, developers can be sure that what they're working on is all building together as a single unit
+* Like a multi-repo, projects can be separated/clustered together to match the organization
+* Like a monorepo, building everything together "looks" the same everywhere (CI and developer)
+
+=== Composite Disadvantages
+
+* Needs more tooling support (from Eclipse and IDEA) to work with auto-import
+   - Generating metadata files works
 * Dependency substitution is limited 
    - Only works with Java projects
    - Only works when all participants have the same version of Gradle
-* Composite builds require special tooling to use TBD
+* Composite builds mostly limited to the Tooling API/programmatic interface
+* No composite-of-composite support yet
+
+== Demo (Multi-repo => Monolith)
+
+Separate builds brought together as a monolithic build.
+
+=== Demo (Multi-repo => Monolith)
+
+screencast:monolith1[]
+
+=== Demo (Multi-repo => Monolith)
+
+screencast:monolith2[]
+
+== Demo (Plugin development)
+
+Separate plugin project substituted when in a composite with a build that uses it.
+
+=== Demo (Plugin development)
+
+screencast:plugin1[]
+
+=== Demo (Plugin development)
+
+screencast:plugin2[]
+

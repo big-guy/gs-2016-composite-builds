@@ -1,1 +1,3 @@
 = Composite Builds with Gradle
+AUTHOR
+2016-06-23

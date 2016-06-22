@@ -10,6 +10,7 @@ buildscript {
         classpath 'org.ysb33r.gradle:vfs-gradle-plugin:1.0-beta3'
         classpath 'commons-httpclient:commons-httpclient:3.1'
         classpath 'org.ajoberstar:gradle-git:1.1.0'
+        classpath 'io.ratpack:ratpack-groovy:1.2.0'
     }
 
 }
@@ -82,3 +83,24 @@ asciidoctor.dependsOn(copyScreencasts)
 allprojects {
     apply plugin: 'idea'
 }
+
+task run {
+    doLast {
+        // not sure why I need to run this in a shell
+        new GroovyShell(this.class.classLoader).evaluate '''import static ratpack.groovy.Groovy.ratpack
+
+        ratpack {
+            serverConfig {
+                port 5050
+                development = true
+                baseDir new File('build').absoluteFile.toPath()
+            }
+            handlers {
+                files { dir 'asciidoc/revealjs' indexFiles 'index.html' }
+            }
+        }
+
+        '''
+    }
+}
+

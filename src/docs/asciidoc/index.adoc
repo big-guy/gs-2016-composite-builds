@@ -7,12 +7,9 @@ ifndef::sourcedir[:sourcedir: ../java]
 :deckjs_transition: fade
 :navigation:
 :menu:
-:goto:
 :status:
-:adoctor: https://asciidoctor.org/[Asciidoctor]
-:gradle: https://gradle.org[Gradle]
-:deckjs: https://imakewebthings.com/deck.js/[deck.js]
-:deck2pdf: https://github.com/melix/deck2pdf[deck2pdf]
+:adoctor: http://asciidoctor.org/[Asciidoctor]
+:gradle: http://gradle.org[Gradle]
 
 include::{docs}/author.adoc[]
 
@@ -21,3 +18,5 @@ include::{docs}/gradleinc.adoc[]
 include::{docs}/content.adoc[]
 
 include::{docs}/questions.adoc[]
+
+include::{docs}/thankyou.adoc[]
