@@ -1,0 +1,5 @@
+# Make a bugfix for an external library
+
+We're not limited to just projects we control. 
+
+We could also add an external dependency like commons-lang and treat it as part of our composite.

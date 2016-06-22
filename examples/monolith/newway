@@ -1,0 +1,5 @@
+# The new way (with composite build)
+
+If we define a composite containing my-utils and my-app, we can treat the composite as a single build.
+
+When we want to make changes to my-utils, we just make the changes and build.  my-app would automatically get the changes from my-utils.
