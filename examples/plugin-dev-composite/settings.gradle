@@ -1,0 +1,5 @@
+rootProject.name = 'plugin-dev'
+
+// Experimental syntax!
+includeBuild 'consumer'
+includeBuild 'plugin'
