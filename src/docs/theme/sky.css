@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400italic,700italic,400,700);
 /**
  * Sky theme for reveal.js.
  *
@@ -26,7 +26,7 @@ body {
  }
 
 .reveal {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 36px;
   font-weight: normal;
   letter-spacing: -0.02em;
@@ -48,7 +48,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #007042;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   line-height: 0.9em;
   letter-spacing: -0.08em;
   text-transform: uppercase;
@@ -58,7 +58,10 @@ body {
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
 .reveal h2, 
 .reveal h3,
-.reveal p {
+.reveal p,
+.reveal ul,
+.reveal ol,
+.reveal li {
   text-align: left;
 }
 
