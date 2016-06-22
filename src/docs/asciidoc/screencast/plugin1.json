@@ -1,430 +1,1118 @@
 {
   "version": 1,
-  "width": 80,
+  "width": 141,
   "height": 24,
-  "duration": 31.736954,
+  "duration": 71.309040,
   "command": "/bin/bash",
   "title": "",
   "env": {
-    "TERM": "xterm",
+    "TERM": "xterm-256color",
     "SHELL": "/bin/bash"
   },
   "stdout": [
     [
-      0.187915,
-      "\u001b[1m\u001b[38;5;10mstep4\u001b(B\u001b[m\u001b(B\u001b[m\u001b[38;5;15m $ \u001b(B\u001b[m"
+      0.229531,
+      "\u001b[?1034h"
     ],
     [
-      1.565374,
-      "c"
+      0.000006,
+      "macbook-2:plugin-dev-composite sterling (master\u003e) $ "
     ],
     [
-      0.415061,
-      "a"
+      0.514955,
+      "\u001b[H\u001b[2Jmacbook-2:plugin-dev-composite sterling (master\u003e) $ "
     ],
     [
-      0.381423,
+      1.183835,
+      "s"
+    ],
+    [
+      0.127824,
       "t"
     ],
     [
-      0.201696,
-      " "
-    ],
-    [
-      0.206773,
-      "c"
-    ],
-    [
-      0.134292,
-      "o"
-    ],
-    [
-      0.131635,
-      "r"
-    ],
-    [
-      0.066911,
+      0.088024,
       "e"
     ],
     [
-      0.229607,
-      "/"
+      0.111998,
+      "p"
     ],
     [
-      0.353289,
-      "b"
-    ],
-    [
-      0.237384,
-      "u"
-    ],
-    [
-      0.080968,
-      "i"
-    ],
-    [
-      0.133198,
-      "ld.gradle "
-    ],
-    [
-      0.584689,
-      "\r\n"
-    ],
-    [
-      0.000964,
-      "plugins {\r\n   id 'jvm-component'\r\n   id 'java-lang'\r\n   id 'junit-test-suite'\r\n}\r\n\r\nrepositories { jcenter() }\r\n\r\nmodel {\r\n   components {\r\n       main(JvmLibrarySpec) {\r\n           sources {\r\n\u0009      java {\r\n                 dependencies {\r\n                    module 'org.apache.commons:commons-lang3:3.4'\r\n                 }\r\n              }\r\n           }\r\n           api {\r\n              exports 'com.acme'\r\n           }\r\n       }\r\n   }\r\n}\r\n"
-    ],
-    [
-      0.054180,
-      "\u001b[1m\u001b[38;5;10mstep4\u001b(B\u001b[m\u001b(B\u001b[m\u001b[38;5;15m $ \u001b(B\u001b[m"
-    ],
-    [
-      6.349062,
-      "g"
-    ],
-    [
-      0.096243,
-      "l"
-    ],
-    [
-      0.224035,
+      0.096157,
       " "
     ],
     [
-      0.187274,
-      "c"
-    ],
-    [
-      0.126937,
-      "o"
-    ],
-    [
-      0.148815,
-      "r"
-    ],
-    [
-      0.069199,
-      "e"
-    ],
-    [
-      0.227231,
-      ":"
-    ],
-    [
-      0.213497,
-      "b"
-    ],
-    [
-      0.185732,
-      "u"
-    ],
-    [
-      0.094483,
+      0.119852,
       "i"
     ],
     [
-      0.253031,
-      "l"
+      0.064086,
+      "n"
     ],
     [
-      0.119749,
-      "d"
+      0.063967,
+      "t"
     ],
     [
-      0.418923,
+      0.152293,
+      "ro "
+    ],
+    [
+      0.471826,
       "\r\n"
     ],
     [
-      0.339604,
-      "\u001b[0m"
+      0.003528,
+      "# Composite build to develop a Gradle plugin\r\n\r\nThis sample demonstrates a composite build used to develop a Gradle plugin in \r\nconjunction with a consuming build. This plugin can then easily be published to \r\n"
     ],
     [
-      0.361485,
-      "\u001b[1m\u003e Connecting to Daemon\u001b[22m"
-    ],
-    [
-      0.105163,
-      "\u001b[22D\u001b[1m\u003e Building 0% \u003e :core:compileMainJarMainJava\u001b[22m"
-    ],
-    [
-      0.035795,
-      "\u001b[44D:core:compileMainJarMainJava\u001b[0K\r\n"
-    ],
-    [
-      0.000017,
-      ":core:createMainJar\r\n:core:mainApiJar\r\n:core:mainJar\r\n:core:assemble\r\n:core:check \u001b[33mUP-TO-DATE\u001b[39m\r\n"
-    ],
-    [
-      0.000005,
-      ":core:build\r\n\r\n"
-    ],
-    [
-      0.000018,
-      "BUILD SUCCESSFUL\r\n\r\n"
-    ],
-    [
-      0.000017,
-      "Total time: 0.779 secs\r\n"
+      0.000019,
+      "be shared with other Gradle builds.\r\n\r\nThis setup removes the need for a `buildSrc` project for developing a plugin.\r\n\r\n### Important note:\r\n\r\nThis use case is not currently fully functional.\r\n\r\nChanges to the plugin _implementation_ are picked up automatically by the \r\nconsumer build.\r\n\r\n"
     ],
     [
       0.000004,
-      "\u001b[0K"
+      "Changes to the _API_ of the plugin are not available to the consumer build, \r\n"
     ],
     [
-      0.001675,
-      "\u001b[0m"
+      0.000011,
+      "without publishing these changes to the local repository. The reason is that we \r\n"
     ],
     [
-      0.364747,
-      "\u001b[1m\u001b[38;5;10mstep4\u001b(B\u001b[m\u001b(B\u001b[m\u001b[38;5;15m $ \u001b(B\u001b[m"
+      0.000009,
+      "fully configure each build independently before executing the requested task in \r\n"
     ],
     [
-      5.860306,
-      "g"
+      0.000008,
+      "the composite: configuring the consumer build fails because it does not have \r\n"
     ],
     [
-      0.085445,
-      "l"
+      0.000004,
+      "access to the modified plugin classpath at this stage.\r\n"
     ],
     [
-      0.170481,
-      " "
+      0.031168,
+      "macbook-2:plugin-dev-composite sterling (master\u003e) $ "
     ],
     [
-      0.154448,
+      6.932701,
       "c"
     ],
     [
-      0.141854,
-      "l"
-    ],
-    [
-      0.077292,
-      "i"
-    ],
-    [
-      0.469802,
-      ":"
-    ],
-    [
-      0.297030,
-      "b"
-    ],
-    [
-      0.145393,
-      "u"
-    ],
-    [
-      0.091601,
-      "i"
-    ],
-    [
-      0.229723,
-      "l"
-    ],
-    [
-      0.103481,
+      0.231956,
       "d"
     ],
     [
-      0.904493,
+      0.127908,
+      " "
+    ],
+    [
+      0.448136,
+      "c"
+    ],
+    [
+      0.079887,
+      "o"
+    ],
+    [
+      0.080092,
+      "n"
+    ],
+    [
+      0.112128,
+      "s"
+    ],
+    [
+      0.088022,
+      "u"
+    ],
+    [
+      0.148984,
+      "mer/"
+    ],
+    [
+      0.938889,
       "\r\n"
     ],
     [
-      0.310294,
+      0.032480,
+      "macbook-2:consumer sterling (master\u003e) $ "
+    ],
+    [
+      0.543479,
+      "g"
+    ],
+    [
+      0.151844,
+      "r"
+    ],
+    [
+      0.064050,
+      "a"
+    ],
+    [
+      0.063939,
+      "d"
+    ],
+    [
+      0.087993,
+      "l"
+    ],
+    [
+      0.104203,
+      "e"
+    ],
+    [
+      0.144052,
+      "t"
+    ],
+    [
+      0.327698,
+      " "
+    ],
+    [
+      0.176224,
+      "g"
+    ],
+    [
+      0.175985,
+      "r"
+    ],
+    [
+      0.159814,
+      "e"
+    ],
+    [
+      0.160215,
+      "e"
+    ],
+    [
+      0.136017,
+      "t"
+    ],
+    [
+      0.056028,
+      "i"
+    ],
+    [
+      0.119957,
+      "n"
+    ],
+    [
+      0.080120,
+      "g"
+    ],
+    [
+      0.287669,
+      "\r\n"
+    ],
+    [
+      0.341512,
       "\u001b[0m"
     ],
     [
-      0.356244,
+      0.962611,
       "\u001b[1m\u003e Connecting to Daemon\u001b[22m"
     ],
     [
-      0.106805,
-      "\u001b[22D\u001b[1m\u003e Building 0% \u003e :core:compileMainJarMainJava\u001b[22m"
+      0.116321,
+      "\u001b[22DParallel execution is an incubating feature.\r\n\u001b[1m\u003e Configuring \u003e 0/1 projects \u003e root project\u001b[22m"
     ],
     [
-      0.088605,
-      "\u001b[44D:core:compileMainJarMainJava \u001b[33mUP-TO-DATE\u001b[39m\u001b[0K\r\n"
+      0.040927,
+      "\u001b[43D:greeting\u001b[0K\r\nG'day Bob!!!\r\n\r\n"
     ],
     [
-      0.000010,
-      ":core:mainApiJar \u001b[33mUP-TO-DATE\u001b[39m\r\n:cli:compileMainJarMainJava\r\n"
+      0.000008,
+      "BUILD SUCCESSFUL\r\n\r\nTotal time: 1.341 secs\r\n\u001b[0K"
     ],
     [
-      0.000930,
-      "/home/cchampeau/Documents/talks/gradlesummit2016/step4/cli/src/main/java/com/acme/cli/GreeterCli.java:4: error: package com.acme"
-    ],
-    [
-      0.000010,
-      ".internal does not exist\r\n"
-    ],
-    [
-      0.000013,
-      "import com.acme.internal.GreeterInternal;\r\n"
-    ],
-    [
-      0.000015,
-      "                        ^\r\n"
-    ],
-    [
-      0.003085,
-      "/home/cchampeau/Documents/talks/gradlesummit2016/step4/cli/src/main/java/com/acme/cli/GreeterCli.java:26: error: cannot find sym"
-    ],
-    [
-      0.001043,
-      "bol"
-    ],
-    [
-      0.000128,
-      "\r\n"
-    ],
-    [
-      0.000195,
-      "        return GreeterInternal.normalize(reader.readLine());"
-    ],
-    [
-      0.000042,
-      "\r\n"
-    ],
-    [
-      0.000049,
-      "               ^"
-    ],
-    [
-      0.000038,
-      "\r\n"
-    ],
-    [
-      0.000050,
-      "  symbol:   variable GreeterInternal"
-    ],
-    [
-      0.000038,
-      "\r\n"
-    ],
-    [
-      0.000049,
-      "  location: class GreeterCli"
-    ],
-    [
-      0.000039,
-      "\r\n"
-    ],
-    [
-      0.000047,
-      "2 errors"
-    ],
-    [
-      0.000038,
-      "\r\n"
-    ],
-    [
-      0.000051,
-      ":cli:compileMainJarMainJava \u001b[33mFAILED\u001b[39m"
-    ],
-    [
-      0.000038,
-      "\r\n"
-    ],
-    [
-      0.000049,
-      "\r\n"
-    ],
-    [
-      0.000057,
-      "\u001b[31mFAILURE: \u001b[39m\u001b[31mBuild failed with an exception.\u001b[39m"
-    ],
-    [
-      0.000041,
-      "\r\n"
-    ],
-    [
-      0.000046,
-      "\r\n"
-    ],
-    [
-      0.000044,
-      "* What went wrong:"
-    ],
-    [
-      0.000042,
-      "\r\n"
-    ],
-    [
-      0.000047,
-      "Execution failed for task ':cli:compileMainJarMainJava'."
-    ],
-    [
-      0.000040,
-      "\r\n"
-    ],
-    [
-      0.000051,
-      "\u001b[33m\u003e \u001b[39mCompilation failed; see the compiler error output for details."
-    ],
-    [
-      0.000043,
-      "\r\n"
-    ],
-    [
-      0.000042,
-      "\r\n"
-    ],
-    [
-      0.000050,
-      "* Try:"
-    ],
-    [
-      0.000041,
-      "\r\n"
-    ],
-    [
-      0.000082,
-      "Run with \u001b[1m--stacktrace\u001b[22m option to get the stack trace. Run with \u001b[1m--info\u001b[22m or \u001b[1m--debug\u001b[22m option to get more lo"
-    ],
-    [
-      0.000051,
-      "g output."
-    ],
-    [
-      0.000037,
-      "\r\n"
-    ],
-    [
-      0.000046,
-      "\r\n"
-    ],
-    [
-      0.000044,
-      "\u001b[31mBUILD FAILED\u001b[39m"
-    ],
-    [
-      0.000043,
-      "\r\n"
-    ],
-    [
-      0.000042,
-      "\r\n"
-    ],
-    [
-      0.000050,
-      "Total time: 0.782 secs"
-    ],
-    [
-      0.000039,
-      "\r\n"
-    ],
-    [
-      0.000052,
-      "\u001b[0K"
-    ],
-    [
-      0.018235,
+      0.001448,
       "\u001b[0m"
     ],
     [
-      0.364870,
-      "\u001b[1m\u001b[38;5;10mstep4\u001b(B\u001b[m\u001b(B\u001b[m\u001b[38;5;15m $ \u001b(B\u001b[m"
+      0.410638,
+      "macbook-2:consumer sterling (master\u003e) $ "
+    ],
+    [
+      1.566595,
+      "c"
+    ],
+    [
+      0.183887,
+      "d"
+    ],
+    [
+      0.192243,
+      " "
+    ],
+    [
+      0.287909,
+      "."
+    ],
+    [
+      0.176191,
+      "."
+    ],
+    [
+      0.583801,
+      "\r\n"
+    ],
+    [
+      0.036522,
+      "macbook-2:plugin-dev-composite sterling (master\u003e) $ "
+    ],
+    [
+      0.667651,
+      "#"
+    ],
+    [
+      0.263713,
+      " "
+    ],
+    [
+      0.144232,
+      "c"
+    ],
+    [
+      0.183783,
+      "h"
+    ],
+    [
+      0.096154,
+      "a"
+    ],
+    [
+      0.111925,
+      "n"
+    ],
+    [
+      0.056004,
+      "g"
+    ],
+    [
+      0.063990,
+      "e"
+    ],
+    [
+      0.104080,
+      " "
+    ],
+    [
+      0.095931,
+      "i"
+    ],
+    [
+      0.216041,
+      "m"
+    ],
+    [
+      0.176086,
+      "p"
+    ],
+    [
+      0.168062,
+      "l"
+    ],
+    [
+      0.079770,
+      "e"
+    ],
+    [
+      0.104244,
+      "m"
+    ],
+    [
+      0.079830,
+      "e"
+    ],
+    [
+      0.096062,
+      "n"
+    ],
+    [
+      0.047953,
+      "t"
+    ],
+    [
+      0.127956,
+      "a"
+    ],
+    [
+      0.056141,
+      "t"
+    ],
+    [
+      0.064012,
+      "i"
+    ],
+    [
+      0.063757,
+      "o"
+    ],
+    [
+      0.080043,
+      "n"
+    ],
+    [
+      0.848159,
+      " "
+    ],
+    [
+      0.088032,
+      "o"
+    ],
+    [
+      0.096006,
+      "f"
+    ],
+    [
+      0.047825,
+      " "
+    ],
+    [
+      0.064252,
+      "p"
+    ],
+    [
+      0.175898,
+      "l"
+    ],
+    [
+      0.071766,
+      "u"
+    ],
+    [
+      0.112086,
+      "g"
+    ],
+    [
+      0.071970,
+      "i"
+    ],
+    [
+      0.072022,
+      "n"
+    ],
+    [
+      0.520138,
+      "\r\n"
+    ],
+    [
+      0.038521,
+      "macbook-2:plugin-dev-composite sterling (master\u003e) $ "
+    ],
+    [
+      0.385313,
+      "v"
+    ],
+    [
+      0.088192,
+      "i"
+    ],
+    [
+      0.063837,
+      "m"
+    ],
+    [
+      0.080209,
+      " "
+    ],
+    [
+      0.215730,
+      "p"
+    ],
+    [
+      0.183994,
+      "l"
+    ],
+    [
+      0.096298,
+      "u"
+    ],
+    [
+      0.095942,
+      "g"
+    ],
+    [
+      0.119837,
+      "i"
+    ],
+    [
+      0.079935,
+      "n"
+    ],
+    [
+      0.216181,
+      "/"
+    ],
+    [
+      0.431887,
+      "s"
+    ],
+    [
+      0.280082,
+      "r"
+    ],
+    [
+      0.191915,
+      "c"
+    ],
+    [
+      0.095911,
+      "/"
+    ],
+    [
+      0.224273,
+      "m"
+    ],
+    [
+      0.255443,
+      "a"
+    ],
+    [
+      0.048591,
+      "i"
+    ],
+    [
+      0.103843,
+      "n"
+    ],
+    [
+      0.064021,
+      "/"
+    ],
+    [
+      0.104063,
+      "g"
+    ],
+    [
+      0.136092,
+      "r"
+    ],
+    [
+      0.104069,
+      "o"
+    ],
+    [
+      0.137079,
+      "ovy/"
+    ],
+    [
+      0.934576,
+      "o"
+    ],
+    [
+      0.104218,
+      "r"
+    ],
+    [
+      0.144829,
+      "g/"
+    ],
+    [
+      0.391107,
+      "g"
+    ],
+    [
+      0.216658,
+      "radle/"
+    ],
+    [
+      0.280245,
+      "\u0007Greeting"
+    ],
+    [
+      0.239951,
+      "\u0007"
+    ],
+    [
+      1.015251,
+      "T"
+    ],
+    [
+      0.161272,
+      "ask.groovy "
+    ],
+    [
+      0.686637,
+      "\r\n"
+    ],
+    [
+      0.009887,
+      "\u001b[?1049h\u001b[?1h\u001b="
+    ],
+    [
+      0.002528,
+      "\u001b[1;27r\u001b[?12;25h\u001b[?12l\u001b[?25h\u001b[27m\u001b[m\u001b[H\u001b[2J\u001b[?25l\u001b[27;1H\"plugin/src/main/groovy/org/gradle/GreetingTask.groovy\""
+    ],
+    [
+      0.000020,
+      " 13L, 236C"
+    ],
+    [
+      0.000166,
+      "\u001b[\u003ec"
+    ],
+    [
+      0.000353,
+      "\u001b[1;1Hpackage org.gradle\r\n\r\nimport org.gradle.api.DefaultTask\r\nimport org.gradle.api.tasks.TaskAction\r\n\r\nclass GreetingTask extends DefaultTask {\r\n    String who = 'mate'\u001b[9;4H @TaskAction\r\n    def greet() {\u001b[11;8H println \"G'day ${who}!!!\"\r\n    }\r\n}\r\n\u001b[94m~                                                                                                                                            \u001b[15;1H~                                                                                                                                            \u001b[16;1H~                                                                                                                                            \u001b[17;1H~                                                                                                                                            \u001b[18;1H~                                                                                                                                            \u001b[19;1H~                          "
+    ],
+    [
+      0.000019,
+      "                                                                                                                  \u001b[20;1H~                                                                                                                                            \u001b[21;1H~                                                                                                                                            \u001b[22;1H~                                                                                                                                            \u001b[23;1H~                                                                                                                                            \u001b[24;1H~                                                                                                                                            \u001b[25;1H~                                                                                                                                            \u001b[26;1H~             "
+    ],
+    [
+      0.000013,
+      "                                                                                                                               \u001b[1;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.651134,
+      "\u001b[?25l\u001b[m\u001b[27;1H\u001b[K\u001b[27;1H/"
+    ],
+    [
+      0.000044,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.223702,
+      "G"
+    ],
+    [
+      0.872141,
+      "\r"
+    ],
+    [
+      0.000013,
+      "\u001b[?25l"
+    ],
+    [
+      0.000271,
+      "\u001b[6;7H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.423768,
+      "\u001b[?25l\u001b[27;1H"
+    ],
+    [
+      0.000228,
+      "\u001b[11;18H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.120071,
+      "\u001b[?25l\u0008\"'day ${who}!!!\"\u001b[11;33H\u001b[K\u001b[11;18H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.343972,
+      "\u001b[?25l\u0008\"day ${who}!!!\"\u001b[11;32H\u001b[K\u001b[11;18H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.159773,
+      "\u001b[?25l\u0008\"ay ${who}!!!\"\u001b[11;31H\u001b[K\u001b[11;18H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.264185,
+      "\u001b[?25l\u0008\"y ${who}!!!\"\u001b[11;30H\u001b[K\u001b[11;18H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.472014,
+      "\u001b[?25l\u0008\" ${who}!!!\"\u001b[11;29H\u001b[K\u001b[11;18H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.247836,
+      "\u001b[?25l\u001b[27;1H\u001b[1m-- INSERT --"
+    ],
+    [
+      0.000009,
+      "\u001b[11;18H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.592043,
+      "\u001b[?25l\u001b[m\u0008\"H ${who}!!!\"\u001b[11;19H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.144023,
+      "\u001b[?25l\u0008He ${who}!!!\"\u001b[11;20H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.087941,
+      "\u001b[?25l\u0008el ${who}!!!\"\u001b[11;21H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.136198,
+      "\u001b[?25l\u0008ll ${who}!!!\"\u001b[11;22H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.167873,
+      "\u001b[?25l\u0008lo ${who}!!!\"\u001b[11;23H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.445988,
+      "\u001b[27;1H\u001b[K\u001b[11;22H"
+    ],
+    [
+      0.313853,
+      "\u001b[?25l"
+    ],
+    [
+      0.000246,
+      "\u001b[?12l\u001b[?25h\u001b[?25l\u001b[27;1H:"
+    ],
+    [
+      0.000009,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.119769,
+      "w"
+    ],
+    [
+      0.071959,
+      "q"
+    ],
+    [
+      0.175987,
+      "a"
+    ],
+    [
+      0.095968,
+      "\r"
+    ],
+    [
+      0.000070,
+      "\u001b[?25l"
+    ],
+    [
+      0.000137,
+      "\"plugin/src/main/groovy/org/gradle/GreetingTask.groovy\""
+    ],
+    [
+      0.001384,
+      " 13L, 236C written"
+    ],
+    [
+      0.002537,
+      "\r\r\r\n\u001b[?1l\u001b\u003e\u001b[?12l\u001b[?25h\u001b[?1049l"
+    ],
+    [
+      0.036467,
+      "macbook-2:plugin-dev-composite sterling (master *\u003e) $ "
+    ],
+    [
+      1.639431,
+      "c"
+    ],
+    [
+      0.183951,
+      "d"
+    ],
+    [
+      0.127846,
+      " "
+    ],
+    [
+      0.296198,
+      "c"
+    ],
+    [
+      0.104001,
+      "o"
+    ],
+    [
+      0.071782,
+      "n"
+    ],
+    [
+      0.119758,
+      "s"
+    ],
+    [
+      0.182038,
+      "umer/"
+    ],
+    [
+      1.298397,
+      "\r\n"
+    ],
+    [
+      0.037282,
+      "macbook-2:consumer sterling (master *\u003e) $ "
+    ],
+    [
+      0.506685,
+      "g"
+    ],
+    [
+      0.167888,
+      "r"
+    ],
+    [
+      0.087925,
+      "a"
+    ],
+    [
+      0.072086,
+      "d"
+    ],
+    [
+      0.087985,
+      "l"
+    ],
+    [
+      0.103982,
+      "e"
+    ],
+    [
+      0.072241,
+      "t"
+    ],
+    [
+      0.103831,
+      " "
+    ],
+    [
+      1.071968,
+      "g"
+    ],
+    [
+      0.159978,
+      "r"
+    ],
+    [
+      0.128124,
+      "e"
+    ],
+    [
+      0.143839,
+      "e"
+    ],
+    [
+      0.120001,
+      "t"
+    ],
+    [
+      0.064005,
+      "i"
+    ],
+    [
+      0.080090,
+      "n"
+    ],
+    [
+      0.087961,
+      "g"
+    ],
+    [
+      0.408124,
+      "\r\n"
+    ],
+    [
+      0.338375,
+      "\u001b[0m"
+    ],
+    [
+      0.645113,
+      "\u001b[1m\u003e Connecting to Daemon\u001b[22m"
+    ],
+    [
+      0.121595,
+      "\u001b[22DParallel execution is an incubating feature.\r\n"
+    ],
+    [
+      0.000007,
+      ":greeting\r\nG'day Bob!!!\r\n\r\nBUILD SUCCESSFUL\r\n"
+    ],
+    [
+      0.000003,
+      "\r\n"
+    ],
+    [
+      0.000100,
+      "Total time: 0.997 secs\r\n\u001b[0K"
+    ],
+    [
+      0.177259,
+      "\u001b[0m"
+    ],
+    [
+      0.411143,
+      "macbook-2:consumer sterling (master *\u003e) $ "
+    ],
+    [
+      2.122368,
+      "c"
+    ],
+    [
+      0.279919,
+      "d"
+    ],
+    [
+      0.136204,
+      " "
+    ],
+    [
+      0.119876,
+      "."
+    ],
+    [
+      0.135862,
+      "."
+    ],
+    [
+      0.224162,
+      "\r\n"
+    ],
+    [
+      0.037882,
+      "macbook-2:plugin-dev-composite sterling (master *\u003e) $ "
+    ],
+    [
+      1.522011,
+      "#"
+    ],
+    [
+      0.208207,
+      " "
+    ],
+    [
+      0.127779,
+      "n"
+    ],
+    [
+      0.072191,
+      "o"
+    ],
+    [
+      0.047849,
+      "w"
+    ],
+    [
+      0.144027,
+      " "
+    ],
+    [
+      0.208081,
+      "r"
+    ],
+    [
+      0.255407,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.088731,
+      "t"
+    ],
+    [
+      0.151835,
+      "r"
+    ],
+    [
+      0.103991,
+      "y"
+    ],
+    [
+      0.023828,
+      " "
+    ],
+    [
+      0.072170,
+      "i"
+    ],
+    [
+      0.087810,
+      "t"
+    ],
+    [
+      0.104184,
+      " "
+    ],
+    [
+      0.080047,
+      "i"
+    ],
+    [
+      0.087827,
+      "n"
+    ],
+    [
+      0.072239,
+      " "
+    ],
+    [
+      0.071926,
+      "t"
+    ],
+    [
+      0.080019,
+      "h"
+    ],
+    [
+      0.047790,
+      "e"
+    ],
+    [
+      0.104117,
+      " "
+    ],
+    [
+      0.088134,
+      "c"
+    ],
+    [
+      0.104055,
+      "o"
+    ],
+    [
+      0.063818,
+      "m"
+    ],
+    [
+      0.111998,
+      "p"
+    ],
+    [
+      0.167954,
+      "o"
+    ],
+    [
+      0.032235,
+      "s"
+    ],
+    [
+      0.711726,
+      "i"
+    ],
+    [
+      0.096146,
+      "t"
+    ],
+    [
+      0.103904,
+      "e"
+    ],
+    [
+      0.159965,
+      "."
+    ],
+    [
+      0.136026,
+      "."
+    ],
+    [
+      0.128248,
+      "."
+    ],
+    [
+      0.255711,
+      "\r\n"
+    ],
+    [
+      0.038034,
+      "macbook-2:plugin-dev-composite sterling (master *\u003e) $ "
+    ],
+    [
+      0.489974,
+      "g"
+    ],
+    [
+      0.168182,
+      "r"
+    ],
+    [
+      0.079842,
+      "a"
+    ],
+    [
+      0.055992,
+      "d"
+    ],
+    [
+      0.080153,
+      "l"
+    ],
+    [
+      0.087822,
+      "e"
+    ],
+    [
+      0.144167,
+      "t"
+    ],
+    [
+      0.375808,
+      " "
+    ],
+    [
+      0.831911,
+      "\r\n"
+    ],
+    [
+      0.337688,
+      "\u001b[0m"
+    ],
+    [
+      0.636174,
+      "\u001b[1m\u003e Connecting to Daemon\u001b[22m"
+    ],
+    [
+      0.114578,
+      "\u001b[22D[composite-build] Configuring participant: /Users/sterling/gits/tmp/gs-2016-composite-builds/examples/plugin-dev-composite/consumer\r\n\u001b[1m\u003e Configuring \u003e 0/1 projects\u001b[22m"
+    ],
+    [
+      0.087694,
+      "\u001b[28D[composite-build] Configuring participant: /Users/sterling/gits/tmp/gs-2016-composite-builds/examples/plugin-dev-composite/plugin\r\n"
+    ],
+    [
+      0.000010,
+      "\u001b[1m\u003e Building 0% \u003e :consumer__greeting \u003e settings\u001b[22m"
+    ],
+    [
+      0.090511,
+      "\u001b[46D:consumer__greeting\u001b[0K\r\n:customPlugin:compileJava \u001b[33mUP-TO-DATE\u001b[39m\r\n"
+    ],
+    [
+      0.000009,
+      "\u001b[1m\u003e Building 0% \u003e :consumer__greeting \u003e :customPlugin:compileGroovy\u001b[22m"
+    ],
+    [
+      1.309603,
+      "\u001b[65D:customPlugin:compileGroovy\u001b[0K\r\n"
+    ],
+    [
+      0.000009,
+      "\u001b[1m\u003e Building 0% \u003e :consumer__greeting\u001b[22m\u001b[0K"
+    ],
+    [
+      0.087885,
+      "\u001b[35D:customPlugin:processResources \u001b[33mUP-TO-DATE\u001b[39m\r\n"
+    ],
+    [
+      0.000008,
+      ":customPlugin:classes\r\n:customPlugin:jar\r\n"
+    ],
+    [
+      0.000013,
+      "\u001b[1m\u003e Building 0% \u003e :consumer__greeting \u003e Compiling /Users/sterling/gits/tmp/gs-2016-composite-builds/examples/plugin-dev-compos"
+    ],
+    [
+      0.000014,
+      "ite/consumer/bui\u001b[22m"
+    ],
+    [
+      0.245928,
+      "\u001b[140D:consumer:greeting\u001b[0K\r\nHello Bob!!!\r\n"
+    ],
+    [
+      0.000008,
+      "\r\nBUILD SUCCESSFUL\r\n\r\nTotal time: 2.791 secs\r\n\u001b[0K"
+    ],
+    [
+      0.001163,
+      "\u001b[0m"
+    ],
+    [
+      0.396729,
+      "macbook-2:plugin-dev-composite sterling (master *\u003e) $ "
     ]
   ]
 }

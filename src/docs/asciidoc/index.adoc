@@ -15,8 +15,8 @@ include::{docs}/author.adoc[]
 
 include::{docs}/content.adoc[]
 
-include::{docs}/questions.adoc[]
-
 include::{docs}/gradleinc.adoc[]
+
+include::{docs}/questions.adoc[]
 
 include::{docs}/thankyou.adoc[]
