@@ -1,0 +1,6 @@
+# Multi-repo to Monolith with Composite
+
+This demo shows how 2 projects that are normally built separately and use external dependencies can be wired together into a monolithic build.
+
+my-app is a single-project build that uses my-utils.
+my-utils is a multi-project build that uses commons-lang3.

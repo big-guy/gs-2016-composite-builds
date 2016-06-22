@@ -1,0 +1,5 @@
+# The old way
+
+When we want to make changes to my-utils, we would need to build my-utils first and put the artifacts somewhere locally (e.g., maven local).  
+
+Then we would need to build my-app to find the changes.

@@ -1,0 +1,11 @@
+apply plugin: 'idea'
+
+defaultTasks 'my-app::run'
+
+task checkAll {
+    dependsOn 'my-app::check', 'my-utils::number-utils:check', 'my-utils::number-utils:check'
+}
+
+cleanIdea {
+    dependsOn 'my-app::cleanIdea', 'my-utils::number-utils:cleanIdea', 'my-utils::string-utils:cleanIdea'
+}

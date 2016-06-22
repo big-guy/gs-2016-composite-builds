@@ -1,0 +1,29 @@
+apply plugin: 'idea'
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'idea'
+
+    group "org.sample"
+    version "1.0"
+
+    repositories {
+        ivy {
+            name 'localrepo'
+            url rootProject.file("../local-repo")
+        }
+        jcenter()
+    }
+
+    uploadArchives {
+        repositories {
+            add project.repositories.localrepo
+        }
+    }
+}
+
+project(":string-utils") {
+    dependencies {
+        compile "org.apache.commons:commons-lang3:3.4"
+    }
+}
