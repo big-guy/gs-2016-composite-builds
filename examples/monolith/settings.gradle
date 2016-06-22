@@ -1,4 +1,5 @@
 rootProject.name='monolith'
 
+// Experimental syntax!
 includeBuild 'my-app'
 includeBuild 'my-utils'
