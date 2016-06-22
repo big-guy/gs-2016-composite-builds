@@ -13,10 +13,10 @@ ifndef::sourcedir[:sourcedir: ../java]
 
 include::{docs}/author.adoc[]
 
-include::{docs}/gradleinc.adoc[]
-
 include::{docs}/content.adoc[]
 
 include::{docs}/questions.adoc[]
+
+include::{docs}/gradleinc.adoc[]
 
 include::{docs}/thankyou.adoc[]

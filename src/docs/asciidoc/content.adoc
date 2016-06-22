@@ -135,13 +135,17 @@ Breaks down differences between external dependencies and project dependencies t
 
 Separate builds brought together as a monolithic build.
 
-=== Demo (Multi-repo => Monolith)
+=== Demo (Old way with multiple builds)
 
 screencast:monolith1[]
 
-=== Demo (Multi-repo => Monolith)
+=== Demo (New way with composite build)
 
 screencast:monolith2[]
+
+=== Demo (New way with third party)
+
+screencast:monolith3[]
 
 == Demo (Plugin development)
 
@@ -154,4 +158,3 @@ screencast:plugin1[]
 === Demo (Plugin development)
 
 screencast:plugin2[]
-

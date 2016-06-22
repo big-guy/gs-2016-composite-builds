@@ -419,7 +419,7 @@
       "\u001b[1m\u003e Configuring \u003e 1/1 projects \u003e Resolving dependencies ':runtime'\u001b[22m"
     ],
     [
-      8.262839,
+      1.262839,
       "\u001b[64D\u001b[1m\u003e Configuring \u003e 1/1 projects\u001b[22m\u001b[0K"
     ],
     [
@@ -881,30 +881,6 @@
     [
       0.416182,
       "macbook-2:my-app sterling (master *\u003e) $ "
-    ],
-    [
-      1.323531,
-      "e"
-    ],
-    [
-      0.208174,
-      "x"
-    ],
-    [
-      0.128034,
-      "i"
-    ],
-    [
-      0.111896,
-      "t"
-    ],
-    [
-      0.088113,
-      "\r\n"
-    ],
-    [
-      0.000197,
-      "exit\r\n"
     ]
   ]
 }
