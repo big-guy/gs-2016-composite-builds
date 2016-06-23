@@ -2,7 +2,7 @@
   "version": 1,
   "width": 141,
   "height": 24,
-  "duration": 29.459251,
+  "duration": 51.544562,
   "command": "/bin/bash",
   "title": "",
   "env": {
@@ -11,7 +11,7 @@
   },
   "stdout": [
     [
-      0.305255,
+      0.307334,
       "\u001b[?1034h"
     ],
     [
@@ -19,248 +19,2252 @@
       "macbook-2:monolith sterling (master\u003e) $ "
     ],
     [
-      0.206612,
+      0.836861,
       "s"
     ],
     [
-      0.584224,
+      0.095939,
       "t"
     ],
     [
-      0.151832,
+      0.103936,
       "e"
     ],
     [
-      0.048001,
+      0.071422,
       "p"
     ],
     [
-      0.360106,
+      0.096358,
       " "
     ],
     [
-      0.175851,
-      "n"
-    ],
-    [
-      0.064124,
-      "e"
-    ],
-    [
-      0.088066,
-      "w"
-    ],
-    [
-      0.216170,
-      "way "
-    ],
-    [
-      0.431623,
-      "\r\n"
-    ],
-    [
-      0.004958,
-      "# The new way (with composite build)\r\n\r\nIf we define a composite containing my-utils and my-app, we can treat the \r\ncomposite as a single build.\r\n\r\n"
-    ],
-    [
-      0.000015,
-      "When we want to make changes to my-utils, we just make the changes and build.  \r\nmy-app would automatically get the changes from my-utils.\r\n"
-    ],
-    [
-      0.029848,
-      "macbook-2:monolith sterling (master\u003e) $ "
-    ],
-    [
-      3.837233,
-      "c"
-    ],
-    [
-      0.144218,
-      "a"
-    ],
-    [
-      0.087925,
+      0.648222,
       "t"
     ],
     [
-      0.120110,
-      " "
+      0.063891,
+      "h"
     ],
     [
-      0.759952,
-      "b"
+      0.104222,
+      "i"
     ],
     [
-      0.447334,
-      "\u0008\u001b[K"
+      0.160115,
+      "rdparty "
     ],
     [
-      0.095993,
-      "s"
-    ],
-    [
-      0.072086,
-      "e"
-    ],
-    [
-      0.079878,
-      "t"
-    ],
-    [
-      0.133460,
-      "tings.gradle "
-    ],
-    [
-      0.771196,
+      0.503567,
       "\r\n"
     ],
     [
-      0.003791,
-      "rootProject.name='monolith'\r\n\r\n// Experimental syntax!\r\nincludeBuild 'my-app'\r\nincludeBuild 'my-utils'\r\n"
+      0.004874,
+      "# Make a bugfix for an external library\r\n\r\nWe're not limited to just projects we control. \r\n\r\nWe could also add an external dependency like commons-lang and treat it as part \r\n"
     ],
     [
-      0.033162,
+      0.000020,
+      "of our composite.\r\n"
+    ],
+    [
+      0.029391,
       "macbook-2:monolith sterling (master\u003e) $ "
     ],
     [
-      3.970928,
-      "c"
-    ],
-    [
-      0.199899,
-      "a"
-    ],
-    [
-      0.096240,
-      "t"
-    ],
-    [
-      0.159979,
-      " "
-    ],
-    [
-      0.655948,
-      "b"
-    ],
-    [
-      0.096176,
-      "u"
-    ],
-    [
-      0.174537,
-      "ild.gradle "
-    ],
-    [
-      0.761221,
-      "\r\n"
-    ],
-    [
-      0.003378,
-      "apply plugin: 'idea'\r\n\r\ndefaultTasks 'my-app::run'\r\n\r\ntask checkAll {\r\n    dependsOn 'my-app::check', 'my-utils::number-utils:check', 'my-utils::number-utils:check'\r\n}\r\n\r\ncleanIdea {\r\n    dependsOn 'my-app::cleanIdea', 'my-utils::number-utils:cleanIdea', 'my-utils::string-utils:cleanIdea'\r\n}\r\n"
-    ],
-    [
-      0.030124,
-      "macbook-2:monolith sterling (master\u003e) $ "
-    ],
-    [
-      3.838487,
+      5.383501,
       "g"
     ],
     [
-      0.184009,
-      "r"
+      0.000011,
+      "i"
     ],
     [
-      0.087970,
-      "a"
+      0.000029,
+      "t "
     ],
     [
-      0.080309,
-      "d"
+      0.000023,
+      "c"
     ],
     [
-      0.087808,
+      0.000020,
       "l"
     ],
     [
-      0.103825,
+      0.000015,
+      "o"
+    ],
+    [
+      0.000022,
+      "n"
+    ],
+    [
+      0.000013,
       "e"
     ],
     [
-      0.111697,
+      0.000050,
+      " "
+    ],
+    [
+      0.000013,
+      "h"
+    ],
+    [
+      0.000028,
       "t"
     ],
     [
-      1.440519,
-      "\r\n"
+      0.000015,
+      "t"
     ],
     [
-      0.336278,
-      "\u001b[0m"
+      0.000029,
+      "p"
     ],
     [
-      0.909774,
-      "\u001b[1m\u003e Connecting to Daemon\u001b[22m"
+      0.000015,
+      ":"
     ],
     [
-      0.115923,
-      "\u001b[22D\u001b[1m\u003e Loading \u003e settings \u003e Compiling /Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/settings.gradle in"
+      0.000027,
+      "/"
     ],
     [
-      0.000017,
-      "to local build cache \u001b[22m"
+      0.000007,
+      "/"
     ],
     [
-      0.241446,
-      "\u001b[140D[composite-build] Configuring participant: /Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/my-app\u001b[0K\r\n"
+      0.000021,
+      "g"
     ],
     [
-      0.000049,
-      "[composite-build] Configuring participant: /Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/my-utils\r\n"
+      0.000019,
+      "i"
     ],
     [
-      0.000018,
-      "\u001b[1m\u003e Configuring \u003e 0/1 projects\u001b[22m\u001b[0K"
+      0.000021,
+      "t"
     ],
     [
-      0.138378,
-      "\u001b[28D\u001b[1m\u003e Building 0% \u003e :my-app__run \u003e :my-app:compileJava\u001b[22m"
+      0.000025,
+      "-"
     ],
     [
-      0.118777,
-      "\u001b[50D:my-app__run\u001b[0K\r\n:my-app:compileJava\r\n"
+      0.000021,
+      "w"
     ],
     [
-      0.000008,
-      ":my-utils:number-utils:compileJava\r\n:my-utils:number-utils:processResources \u001b[33mUP-TO-DATE\u001b[39m\r\n:my-utils:number-utils:classes\r\n:my-utils:number-utils:jar\r\n\u001b[1m\u003e Building 0% \u003e :my-app__run \u003e :my-app:compileJava\u001b[22m"
+      0.000022,
+      "i"
     ],
     [
-      0.088350,
-      "\u001b[50D:my-utils:string-utils:compileJava\u001b[0K\r\n"
+      0.000031,
+      "p"
     ],
     [
-      0.000008,
-      ":my-utils:string-utils:processResources \u001b[33mUP-TO-DATE\u001b[39m\r\n:my-utils:string-utils:classes\r\n\u001b[1m\u003e Building 0% \u003e :my-app__run \u003e :my-app:compileJava \u003e :my-utils:string-utils:jar\u001b[22m"
+      0.000029,
+      "-"
     ],
     [
-      0.086488,
-      "\u001b[79D:my-utils:string-utils:jar\u001b[0K\r\n"
+      0.000042,
+      "u"
+    ],
+    [
+      0.000033,
+      "s"
+    ],
+    [
+      0.000020,
+      "."
+    ],
+    [
+      0.000033,
+      "a"
+    ],
+    [
+      0.000016,
+      "p"
+    ],
+    [
+      0.000025,
+      "a"
+    ],
+    [
+      0.000025,
+      "c"
     ],
     [
       0.000010,
-      ":my-app:processResources \u001b[33mUP-TO-DATE\u001b[39m\r\n:my-app:classes\r\n\u001b[1m\u003e Building 0% \u003e :my-app__run \u003e :my-app:run\u001b[22m\u001b[0K"
+      "h"
     ],
     [
-      0.172435,
-      "\u001b[42D:my-app:run\u001b[0K\r\nThe answer is 42\r\n\r\nBUILD SUCCESSFUL\r\n\r\nTotal time: 2.032 secs\r\n\u001b[0K"
+      0.000037,
+      "e"
     ],
     [
-      0.165701,
+      0.000016,
+      "."
+    ],
+    [
+      0.000024,
+      "o"
+    ],
+    [
+      0.000021,
+      "r"
+    ],
+    [
+      0.000013,
+      "g"
+    ],
+    [
+      0.000025,
+      "/"
+    ],
+    [
+      0.000033,
+      "r"
+    ],
+    [
+      0.000008,
+      "e"
+    ],
+    [
+      0.000025,
+      "p"
+    ],
+    [
+      0.000031,
+      "o"
+    ],
+    [
+      0.000041,
+      "s"
+    ],
+    [
+      0.000016,
+      "/"
+    ],
+    [
+      0.000017,
+      "a"
+    ],
+    [
+      0.000016,
+      "s"
+    ],
+    [
+      0.000021,
+      "f"
+    ],
+    [
+      0.000011,
+      "/"
+    ],
+    [
+      0.000012,
+      "c"
+    ],
+    [
+      0.000015,
+      "o"
+    ],
+    [
+      0.000062,
+      "mmo"
+    ],
+    [
+      0.000018,
+      "n"
+    ],
+    [
+      0.000018,
+      "s"
+    ],
+    [
+      0.000019,
+      "-"
+    ],
+    [
+      0.000028,
+      "l"
+    ],
+    [
+      0.000020,
+      "a"
+    ],
+    [
+      0.000016,
+      "n"
+    ],
+    [
+      0.000025,
+      "g"
+    ],
+    [
+      0.000022,
+      "."
+    ],
+    [
+      0.000017,
+      "g"
+    ],
+    [
+      0.000036,
+      "i"
+    ],
+    [
+      0.000027,
+      "t"
+    ],
+    [
+      0.000004,
+      "\r\n"
+    ],
+    [
+      0.003358,
+      "Cloning into 'commons-lang'...\r\n"
+    ],
+    [
+      1.822289,
+      "remote: Counting objects: 56761, done.\u001b[K\r\n"
+    ],
+    [
+      0.000014,
+      "remote: Compressing objects:   0% (1/9497)   \u001b[K\rremote: Compressing objects:   1% (95/9497)   \u001b[K\r"
+    ],
+    [
+      0.000007,
+      "remote: Compressing objects:   2% (190/9497)   \u001b[K\r"
+    ],
+    [
+      0.000047,
+      "remote: Compressing objects:   3% (285/9497)   \u001b[K\r"
+    ],
+    [
+      0.000036,
+      "remote: Compressing objects:   4% (380/9497)   \u001b[K\r"
+    ],
+    [
+      0.000035,
+      "remote: Compressing objects:   5% (475/9497)   \u001b[K\r"
+    ],
+    [
+      0.000075,
+      "remote: Compressing objects:   6% (570/9497)   \u001b[K\rremote: Compressing objects:   7% (665/9497)   \u001b[K\r"
+    ],
+    [
+      0.000057,
+      "remote: Compressing objects:   8% (760/9497)   \u001b[K\r"
+    ],
+    [
+      0.000084,
+      "remote: Compressing objects:   9% (855/9497)   \u001b[K\rremote: Compressing objects:  10% (950/9497)   \u001b[K\r"
+    ],
+    [
+      0.000026,
+      "remote: Compressing objects:  11% (1045/9497)   \u001b[K\r"
+    ],
+    [
+      0.000066,
+      "remote: Compressing objects:  12% (1140/9497)   \u001b[K\r"
+    ],
+    [
+      0.000065,
+      "remote: Compressing objects:  13% (1235/9497)   \u001b[K\r"
+    ],
+    [
+      0.000025,
+      "remote: Compressing objects:  14% (1330/9497)   \u001b[K\r"
+    ],
+    [
+      0.000050,
+      "remote: Compressing objects:  15% (1425/9497)   \u001b[K\r"
+    ],
+    [
+      0.000035,
+      "remote: Compressing objects:  16% (1520/9497)   \u001b[K\r"
+    ],
+    [
+      0.000028,
+      "remote: Compressing objects:  17% (1615/9497)   \u001b[K\r"
+    ],
+    [
+      0.000063,
+      "remote: Compressing objects:  18% (1710/9497)   \u001b[K\rremote: Compressing objects:  19% (1805/9497)   \u001b[K\r"
+    ],
+    [
+      0.000047,
+      "remote: Compressing objects:  20% (1900/9497)   \u001b[K\r"
+    ],
+    [
+      0.000032,
+      "remote: Compressing objects:  21% (1995/9497)   \u001b[K\r"
+    ],
+    [
+      0.000036,
+      "remote: Compressing objects:  22% (2090/9497)   \u001b[K\r"
+    ],
+    [
+      0.000025,
+      "remote: Compressing objects:  23% (2185/9497)   \u001b[K\r"
+    ],
+    [
+      0.028385,
+      "remote: Compressing objects:  24% (2280/9497)   \u001b[K\rremote: Compressing objects:  25% (2375/9497)   \u001b[K\r"
+    ],
+    [
+      0.000014,
+      "remote: Compressing objects:  26% (2470/9497)   \u001b[K\rremote: Compressing objects:  27% (2565/9497)   \u001b[K\r"
+    ],
+    [
+      0.000006,
+      "remote: Compressing objects:  28% (2660/9497)   \u001b[K\r"
+    ],
+    [
+      0.000062,
+      "remote: Compressing objects:  29% (2755/9497)   \u001b[K\r"
+    ],
+    [
+      0.000025,
+      "remote: Compressing objects:  30% (2850/9497)   \u001b[K\r"
+    ],
+    [
+      0.000049,
+      "remote: Compressing objects:  31% (2945/9497)   \u001b[K\r"
+    ],
+    [
+      0.000037,
+      "remote: Compressing objects:  32% (3040/9497)   \u001b[K\r"
+    ],
+    [
+      0.000020,
+      "remote: Compressing objects:  33% (3135/9497)   \u001b[K\r"
+    ],
+    [
+      0.000076,
+      "remote: Compressing objects:  34% (3229/9497)   \u001b[K\rremote: Compressing objects:  35% (3324/9497)   \u001b[K\r"
+    ],
+    [
+      0.000023,
+      "remote: Compressing objects:  36% (3419/9497)   \u001b[K\r"
+    ],
+    [
+      0.000041,
+      "remote: Compressing objects:  37% (3514/9497)   \u001b[K\r"
+    ],
+    [
+      0.000039,
+      "remote: Compressing objects:  38% (3609/9497)   \u001b[K\r"
+    ],
+    [
+      0.000031,
+      "remote: Compressing objects:  39% (3704/9497)   \u001b[K\r"
+    ],
+    [
+      0.000047,
+      "remote: Compressing objects:  40% (3799/9497)   \u001b[K\r"
+    ],
+    [
+      0.000031,
+      "remote: Compressing objects:  41% (3894/9497)   \u001b[K\r"
+    ],
+    [
+      0.000050,
+      "remote: Compressing objects:  42% (3989/9497)   \u001b[K\r"
+    ],
+    [
+      0.000012,
+      "remote: Compressing objects:  43% (4084/9497)   \u001b[K\rremote: Compressing objects:  44% (4179/9497)   \u001b[K\r"
+    ],
+    [
+      0.000045,
+      "remote: Compressing objects:  45% (4274/9497)   \u001b[K\r"
+    ],
+    [
+      0.000033,
+      "remote: Compressing objects:  46% (4369/9497)   \u001b[K\r"
+    ],
+    [
+      0.000035,
+      "remote: Compressing objects:  47% (4464/9497)   \u001b[K\r"
+    ],
+    [
+      0.000033,
+      "remote: Compressing objects:  48% (4559/9497)   \u001b[K\r"
+    ],
+    [
+      0.000027,
+      "remote: Compressing objects:  49% (4654/9497)   \u001b[K\r"
+    ],
+    [
+      0.000044,
+      "remote: Compressing objects:  50% (4749/9497)   \u001b[K\r"
+    ],
+    [
+      0.000092,
+      "remote: Compressing objects:  51% (4844/9497)   \u001b[K\r"
+    ],
+    [
+      0.000048,
+      "remote: Compressing objects:  52% (4939/9497)   \u001b[K\r"
+    ],
+    [
+      0.000035,
+      "remote: Compressing objects:  53% (5034/9497)   \u001b[K\r"
+    ],
+    [
+      0.000046,
+      "remote: Compressing objects:  54% (5129/9497)   \u001b[K\r"
+    ],
+    [
+      0.000031,
+      "remote: Compressing objects:  55% (5224/9497)   \u001b[K\r"
+    ],
+    [
+      0.000042,
+      "remote: Compressing objects:  56% (5319/9497)   \u001b[K\r"
+    ],
+    [
+      0.000029,
+      "remote: Compressing objects:  57% (5414/9497)   \u001b[K\r"
+    ],
+    [
+      0.000056,
+      "remote: Compressing objects:  58% (5509/9497)   \u001b[K\r"
+    ],
+    [
+      0.000037,
+      "remote: Compressing objects:  59% (5604/9497)   \u001b[K\r"
+    ],
+    [
+      0.000064,
+      "remote: Compressing objects:  60% (5699/9497)   \u001b[K\r"
+    ],
+    [
+      0.000023,
+      "remote: Compressing objects:  61% (5794/9497)   \u001b[K\r"
+    ],
+    [
+      0.000051,
+      "remote: Compressing objects:  62% (5889/9497)   \u001b[K\r"
+    ],
+    [
+      0.000054,
+      "remote: Compressing objects:  63% (5984/9497)   \u001b[K\r"
+    ],
+    [
+      0.000009,
+      "remote: Compressing objects:  64% (6079/9497)   \u001b[K\r"
+    ],
+    [
+      0.026479,
+      "remote: Compressing objects:  65% (6174/9497)   \u001b[K\r"
+    ],
+    [
+      0.000103,
+      "remote: Compressing objects:  66% (6269/9497)   \u001b[K\rremote: Compressing objects:  67% (6363/9497)   \u001b[K\rremote: Compressing objects:  68% (6458/9497)   \u001b[K\r"
+    ],
+    [
+      0.000041,
+      "remote: Compressing objects:  69% (6553/9497)   \u001b[K\r"
+    ],
+    [
+      0.000021,
+      "remote: Compressing objects:  70% (6648/9497)   \u001b[K\r"
+    ],
+    [
+      0.000098,
+      "remote: Compressing objects:  71% (6743/9497)   \u001b[K\r"
+    ],
+    [
+      0.000088,
+      "remote: Compressing objects:  72% (6838/9497)   \u001b[K\r"
+    ],
+    [
+      0.000041,
+      "remote: Compressing objects:  73% (6933/9497)   \u001b[K\rremote: Compressing objects:  74% (7028/9497)   \u001b[K\r"
+    ],
+    [
+      0.000034,
+      "remote: Compressing objects:  75% (7123/9497)   \u001b[K\r"
+    ],
+    [
+      0.000197,
+      "remote: Compressing objects:  76% (7218/9497)   \u001b[K\r"
+    ],
+    [
+      0.000068,
+      "remote: Compressing objects:  77% (7313/9497)   \u001b[K\rremote: Compressing objects:  78% (7408/9497)   \u001b[K\r"
+    ],
+    [
+      0.000041,
+      "remote: Compressing objects:  79% (7503/9497)   \u001b[K\r"
+    ],
+    [
+      0.000046,
+      "remote: Compressing objects:  80% (7598/9497)   \u001b[K\r"
+    ],
+    [
+      0.000021,
+      "remote: Compressing objects:  81% (7693/9497)   \u001b[K\r"
+    ],
+    [
+      0.000051,
+      "remote: Compressing objects:  82% (7788/9497)   \u001b[K\rremote: Compressing objects:  83% (7883/9497)   \u001b[K\r"
+    ],
+    [
+      0.000046,
+      "remote: Compressing objects:  84% (7978/9497)   \u001b[K\r"
+    ],
+    [
+      0.000040,
+      "remote: Compressing objects:  85% (8073/9497)   \u001b[K\r"
+    ],
+    [
+      0.000082,
+      "remote: Compressing objects:  86% (8168/9497)   \u001b[K\r"
+    ],
+    [
+      0.000051,
+      "remote: Compressing objects:  87% (8263/9497)   \u001b[K\r"
+    ],
+    [
+      0.000028,
+      "remote: Compressing objects:  88% (8358/9497)   \u001b[K\r"
+    ],
+    [
+      0.000068,
+      "remote: Compressing objects:  89% (8453/9497)   \u001b[K\r"
+    ],
+    [
+      0.000034,
+      "remote: Compressing objects:  90% (8548/9497)   \u001b[K\r"
+    ],
+    [
+      0.000032,
+      "remote: Compressing objects:  91% (8643/9497)   \u001b[K\r"
+    ],
+    [
+      0.000151,
+      "remote: Compressing objects:  92% (8738/9497)   \u001b[K\r"
+    ],
+    [
+      0.000086,
+      "remote: Compressing objects:  93% (8833/9497)   \u001b[K\r"
+    ],
+    [
+      0.000043,
+      "remote: Compressing objects:  94% (8928/9497)   \u001b[K\r"
+    ],
+    [
+      0.000030,
+      "remote: Compressing objects:  95% (9023/9497)   \u001b[K\r"
+    ],
+    [
+      0.000097,
+      "remote: Compressing objects:  96% (9118/9497)   \u001b[K\r"
+    ],
+    [
+      0.000011,
+      "remote: Compressing objects:  97% (9213/9497)   \u001b[K\r"
+    ],
+    [
+      0.000041,
+      "remote: Compressing objects:  98% (9308/9497)   \u001b[K\r"
+    ],
+    [
+      0.000033,
+      "remote: Compressing objects:  99% (9403/9497)   \u001b[K\r"
+    ],
+    [
+      0.000048,
+      "remote: Compressing objects: 100% (9497/9497)   \u001b[K\r"
+    ],
+    [
+      0.000075,
+      "remote: Compressing objects: 100% (9497/9497), done.\u001b[K\r\n"
+    ],
+    [
+      0.031141,
+      "Receiving objects:   0% (1/56761)   \r"
+    ],
+    [
+      0.249102,
+      "Receiving objects:   1% (568/56761)   \r"
+    ],
+    [
+      0.202140,
+      "Receiving objects:   2% (1136/56761)   \r"
+    ],
+    [
+      0.209751,
+      "Receiving objects:   3% (1703/56761), 308.00 KiB | 597.00 KiB/s   \r"
+    ],
+    [
+      0.190336,
+      "Receiving objects:   4% (2271/56761), 308.00 KiB | 597.00 KiB/s   \r"
+    ],
+    [
+      0.149848,
+      "Receiving objects:   4% (2677/56761), 308.00 KiB | 597.00 KiB/s   \r"
+    ],
+    [
+      0.052237,
+      "Receiving objects:   5% (2839/56761), 660.00 KiB | 647.00 KiB/s   \r"
+    ],
+    [
+      0.241613,
+      "Receiving objects:   6% (3406/56761), 660.00 KiB | 647.00 KiB/s   \r"
+    ],
+    [
+      0.198736,
+      "Receiving objects:   7% (3974/56761), 660.00 KiB | 647.00 KiB/s   \r"
+    ],
+    [
+      0.202947,
+      "Receiving objects:   8% (4541/56761), 980.00 KiB | 644.00 KiB/s   \r"
+    ],
+    [
+      0.192324,
+      "Receiving objects:   9% (5109/56761), 980.00 KiB | 644.00 KiB/s   \r"
+    ],
+    [
+      0.058446,
+      "Receiving objects:  10% (5677/56761), 980.00 KiB | 644.00 KiB/s   \r"
+    ],
+    [
+      0.050351,
+      "Receiving objects:  11% (6244/56761), 980.00 KiB | 644.00 KiB/s   \r"
+    ],
+    [
+      0.003735,
+      "Receiving objects:  11% (6313/56761), 980.00 KiB | 644.00 KiB/s   \r"
+    ],
+    [
+      0.030580,
+      "Receiving objects:  12% (6812/56761), 1.31 MiB | 660.00 KiB/s   \r"
+    ],
+    [
+      0.065035,
+      "Receiving objects:  13% (7379/56761), 1.31 MiB | 660.00 KiB/s   \r"
+    ],
+    [
+      0.036884,
+      "Receiving objects:  14% (7947/56761), 1.31 MiB | 660.00 KiB/s   \r"
+    ],
+    [
+      0.048461,
+      "Receiving objects:  15% (8515/56761), 1.31 MiB | 660.00 KiB/s   \r"
+    ],
+    [
+      0.032032,
+      "Receiving objects:  16% (9082/56761), 1.31 MiB | 660.00 KiB/s   \r"
+    ],
+    [
+      0.047227,
+      "Receiving objects:  17% (9650/56761), 1.31 MiB | 660.00 KiB/s   \r"
+    ],
+    [
+      0.029751,
+      "Receiving objects:  18% (10217/56761), 1.31 MiB | 660.00 KiB/s   \r"
+    ],
+    [
+      0.056537,
+      "Receiving objects:  19% (10785/56761), 1.31 MiB | 660.00 KiB/s   \r"
+    ],
+    [
+      0.032937,
+      "Receiving objects:  20% (11353/56761), 1.31 MiB | 660.00 KiB/s   \r"
+    ],
+    [
+      0.050351,
+      "Receiving objects:  21% (11920/56761), 1.31 MiB | 660.00 KiB/s   \r"
+    ],
+    [
+      0.037627,
+      "Receiving objects:  22% (12488/56761), 1.31 MiB | 660.00 KiB/s   \r"
+    ],
+    [
+      0.035903,
+      "Receiving objects:  23% (13056/56761), 1.31 MiB | 660.00 KiB/s   \r"
+    ],
+    [
+      0.044164,
+      "Receiving objects:  24% (13623/56761), 1.66 MiB | 672.00 KiB/s   \r"
+    ],
+    [
+      0.040704,
+      "Receiving objects:  25% (14191/56761), 1.66 MiB | 672.00 KiB/s   \r"
+    ],
+    [
+      0.040207,
+      "Receiving objects:  26% (14758/56761), 1.66 MiB | 672.00 KiB/s   \r"
+    ],
+    [
+      0.045149,
+      "Receiving objects:  27% (15326/56761), 1.66 MiB | 672.00 KiB/s   \r"
+    ],
+    [
+      0.045315,
+      "Receiving objects:  28% (15894/56761), 1.66 MiB | 672.00 KiB/s   \r"
+    ],
+    [
+      0.035935,
+      "Receiving objects:  29% (16461/56761), 1.66 MiB | 672.00 KiB/s   \r"
+    ],
+    [
+      0.041485,
+      "Receiving objects:  30% (17029/56761), 1.66 MiB | 672.00 KiB/s   \r"
+    ],
+    [
+      0.028360,
+      "Receiving objects:  31% (17596/56761), 1.66 MiB | 672.00 KiB/s   \r"
+    ],
+    [
+      0.039974,
+      "Receiving objects:  32% (18164/56761), 1.66 MiB | 672.00 KiB/s   \r"
+    ],
+    [
+      0.049514,
+      "Receiving objects:  33% (18732/56761), 1.66 MiB | 672.00 KiB/s   \r"
+    ],
+    [
+      0.034251,
+      "Receiving objects:  34% (19299/56761), 1.66 MiB | 672.00 KiB/s   \r"
+    ],
+    [
+      0.039530,
+      "Receiving objects:  35% (19867/56761), 1.66 MiB | 672.00 KiB/s   \r"
+    ],
+    [
+      0.013718,
+      "Receiving objects:  35% (19883/56761), 1.66 MiB | 672.00 KiB/s   \r"
+    ],
+    [
+      0.033828,
+      "Receiving objects:  36% (20434/56761), 2.00 MiB | 677.00 KiB/s   \r"
+    ],
+    [
+      0.036128,
+      "Receiving objects:  37% (21002/56761), 2.00 MiB | 677.00 KiB/s   \r"
+    ],
+    [
+      0.040075,
+      "Receiving objects:  38% (21570/56761), 2.00 MiB | 677.00 KiB/s   \r"
+    ],
+    [
+      0.056530,
+      "Receiving objects:  39% (22137/56761), 2.00 MiB | 677.00 KiB/s   \r"
+    ],
+    [
+      0.059263,
+      "Receiving objects:  40% (22705/56761), 2.00 MiB | 677.00 KiB/s   \r"
+    ],
+    [
+      0.049708,
+      "Receiving objects:  41% (23273/56761), 2.00 MiB | 677.00 KiB/s   \r"
+    ],
+    [
+      0.045479,
+      "Receiving objects:  42% (23840/56761), 2.00 MiB | 677.00 KiB/s   \r"
+    ],
+    [
+      0.044546,
+      "Receiving objects:  43% (24408/56761), 2.00 MiB | 677.00 KiB/s   \r"
+    ],
+    [
+      0.055938,
+      "Receiving objects:  44% (24975/56761), 2.00 MiB | 677.00 KiB/s   \r"
+    ],
+    [
+      0.041736,
+      "Receiving objects:  45% (25543/56761), 2.00 MiB | 677.00 KiB/s   \r"
+    ],
+    [
+      0.047613,
+      "Receiving objects:  46% (26111/56761), 2.00 MiB | 677.00 KiB/s   \r"
+    ],
+    [
+      0.037207,
+      "Receiving objects:  47% (26678/56761), 2.36 MiB | 684.00 KiB/s   \r"
+    ],
+    [
+      0.041744,
+      "Receiving objects:  48% (27246/56761), 2.36 MiB | 684.00 KiB/s   \r"
+    ],
+    [
+      0.047773,
+      "Receiving objects:  49% (27813/56761), 2.36 MiB | 684.00 KiB/s   \r"
+    ],
+    [
+      0.042673,
+      "Receiving objects:  50% (28381/56761), 2.36 MiB | 684.00 KiB/s   \r"
+    ],
+    [
+      0.041910,
+      "Receiving objects:  51% (28949/56761), 2.36 MiB | 684.00 KiB/s   \r"
+    ],
+    [
+      0.044267,
+      "Receiving objects:  52% (29516/56761), 2.36 MiB | 684.00 KiB/s   \r"
+    ],
+    [
+      0.080316,
+      "Receiving objects:  53% (30084/56761), 2.36 MiB | 684.00 KiB/s   \r"
+    ],
+    [
+      0.150211,
+      "Receiving objects:  53% (30494/56761), 2.36 MiB | 684.00 KiB/s   \r"
+    ],
+    [
+      0.062305,
+      "Receiving objects:  54% (30651/56761), 2.70 MiB | 684.00 KiB/s   \r"
+    ],
+    [
+      0.193942,
+      "Receiving objects:  55% (31219/56761), 2.70 MiB | 684.00 KiB/s   \r"
+    ],
+    [
+      0.259833,
+      "Receiving objects:  56% (31787/56761), 2.70 MiB | 684.00 KiB/s   \r"
+    ],
+    [
+      0.206122,
+      "Receiving objects:  57% (32354/56761), 3.05 MiB | 687.00 KiB/s   \r"
+    ],
+    [
+      0.182145,
+      "Receiving objects:  58% (32922/56761), 3.05 MiB | 687.00 KiB/s   \r"
+    ],
+    [
+      0.104395,
+      "Receiving objects:  58% (33293/56761), 3.05 MiB | 687.00 KiB/s   \r"
+    ],
+    [
+      0.030338,
+      "Receiving objects:  59% (33489/56761), 3.05 MiB | 687.00 KiB/s   \r"
+    ],
+    [
+      0.243169,
+      "Receiving objects:  60% (34057/56761), 3.41 MiB | 701.00 KiB/s   \r"
+    ],
+    [
+      0.187073,
+      "Receiving objects:  61% (34625/56761), 3.41 MiB | 701.00 KiB/s   \r"
+    ],
+    [
+      0.266647,
+      "Receiving objects:  62% (35192/56761), 3.76 MiB | 701.00 KiB/s   \r"
+    ],
+    [
+      0.274378,
+      "Receiving objects:  62% (35747/56761), 3.76 MiB | 701.00 KiB/s   \r"
+    ],
+    [
+      0.000066,
+      "Receiving objects:  63% (35760/56761), 3.76 MiB | 701.00 KiB/s   \r"
+    ],
+    [
+      0.194614,
+      "Receiving objects:  64% (36328/56761), 4.11 MiB | 708.00 KiB/s   \r"
+    ],
+    [
+      0.226937,
+      "Receiving objects:  65% (36895/56761), 4.11 MiB | 708.00 KiB/s   \r"
+    ],
+    [
+      0.188546,
+      "Receiving objects:  66% (37463/56761), 4.46 MiB | 709.00 KiB/s   \r"
+    ],
+    [
+      0.178431,
+      "Receiving objects:  67% (38030/56761), 4.46 MiB | 709.00 KiB/s   \r"
+    ],
+    [
+      0.188437,
+      "Receiving objects:  68% (38598/56761), 4.46 MiB | 709.00 KiB/s   \r"
+    ],
+    [
+      0.033700,
+      "Receiving objects:  68% (38749/56761), 4.46 MiB | 709.00 KiB/s   \r"
+    ],
+    [
+      0.133073,
+      "Receiving objects:  69% (39166/56761), 4.80 MiB | 707.00 KiB/s   \r"
+    ],
+    [
+      0.177977,
+      "Receiving objects:  70% (39733/56761), 4.80 MiB | 707.00 KiB/s   \r"
+    ],
+    [
+      0.236093,
+      "Receiving objects:  71% (40301/56761), 4.80 MiB | 707.00 KiB/s   \r"
+    ],
+    [
+      0.031802,
+      "Receiving objects:  72% (40868/56761), 5.16 MiB | 708.00 KiB/s   \r"
+    ],
+    [
+      0.039576,
+      "Receiving objects:  73% (41436/56761), 5.16 MiB | 708.00 KiB/s   \r"
+    ],
+    [
+      0.038430,
+      "Receiving objects:  74% (42004/56761), 5.16 MiB | 708.00 KiB/s   \r"
+    ],
+    [
+      0.030854,
+      "Receiving objects:  75% (42571/56761), 5.16 MiB | 708.00 KiB/s   \r"
+    ],
+    [
+      0.048083,
+      "Receiving objects:  76% (43139/56761), 5.16 MiB | 708.00 KiB/s   \r"
+    ],
+    [
+      0.099246,
+      "Receiving objects:  77% (43706/56761), 5.16 MiB | 708.00 KiB/s   \r"
+    ],
+    [
+      0.147945,
+      "Receiving objects:  77% (44039/56761), 5.16 MiB | 708.00 KiB/s   \r"
+    ],
+    [
+      0.047131,
+      "Receiving objects:  78% (44274/56761), 5.16 MiB | 708.00 KiB/s   \r"
+    ],
+    [
+      0.088296,
+      "Receiving objects:  79% (44842/56761), 5.50 MiB | 706.00 KiB/s   \r"
+    ],
+    [
+      0.039750,
+      "Receiving objects:  80% (45409/56761), 5.50 MiB | 706.00 KiB/s   \r"
+    ],
+    [
+      0.075571,
+      "Receiving objects:  81% (45977/56761), 5.50 MiB | 706.00 KiB/s   \r"
+    ],
+    [
+      0.039760,
+      "Receiving objects:  82% (46545/56761), 5.50 MiB | 706.00 KiB/s   \r"
+    ],
+    [
+      0.039614,
+      "Receiving objects:  83% (47112/56761), 5.50 MiB | 706.00 KiB/s   \r"
+    ],
+    [
+      0.031567,
+      "Receiving objects:  84% (47680/56761), 5.50 MiB | 706.00 KiB/s   \r"
+    ],
+    [
+      0.086070,
+      "Receiving objects:  85% (48247/56761), 5.50 MiB | 706.00 KiB/s   \r"
+    ],
+    [
+      0.054518,
+      "Receiving objects:  86% (48815/56761), 5.50 MiB | 706.00 KiB/s   \r"
+    ],
+    [
+      0.047259,
+      "Receiving objects:  87% (49383/56761), 5.50 MiB | 706.00 KiB/s   \r"
+    ],
+    [
+      0.032357,
+      "Receiving objects:  88% (49950/56761), 5.50 MiB | 706.00 KiB/s   \r"
+    ],
+    [
+      0.067649,
+      "Receiving objects:  89% (50518/56761), 5.86 MiB | 711.00 KiB/s   \r"
+    ],
+    [
+      0.064594,
+      "Receiving objects:  90% (51085/56761), 5.86 MiB | 711.00 KiB/s   \r"
+    ],
+    [
+      0.054952,
+      "Receiving objects:  91% (51653/56761), 5.86 MiB | 711.00 KiB/s   \r"
+    ],
+    [
+      0.079260,
+      "Receiving objects:  92% (52221/56761), 5.86 MiB | 711.00 KiB/s   \r"
+    ],
+    [
+      0.037611,
+      "Receiving objects:  93% (52788/56761), 5.86 MiB | 711.00 KiB/s   \r"
+    ],
+    [
+      0.070330,
+      "Receiving objects:  94% (53356/56761), 5.86 MiB | 711.00 KiB/s   \r"
+    ],
+    [
+      0.041716,
+      "Receiving objects:  94% (53651/56761), 5.86 MiB | 711.00 KiB/s   \r"
+    ],
+    [
+      0.013027,
+      "Receiving objects:  95% (53923/56761), 5.86 MiB | 711.00 KiB/s   \r"
+    ],
+    [
+      0.073587,
+      "Receiving objects:  96% (54491/56761), 5.86 MiB | 711.00 KiB/s   \r"
+    ],
+    [
+      0.121646,
+      "Receiving objects:  97% (55059/56761), 6.21 MiB | 710.00 KiB/s   \r"
+    ],
+    [
+      0.066831,
+      "Receiving objects:  98% (55626/56761), 6.21 MiB | 710.00 KiB/s   \r"
+    ],
+    [
+      0.044647,
+      "Receiving objects:  99% (56194/56761), 6.21 MiB | 710.00 KiB/s   \r"
+    ],
+    [
+      0.043979,
+      "remote: Total 56761 (delta 28282), reused 52684 (delta 26438)\u001b[K\r\n"
+    ],
+    [
+      0.001165,
+      "Receiving objects: 100% (56761/56761), 6.21 MiB | 710.00 KiB/s   \rReceiving objects: 100% (56761/56761), 6.41 MiB | 708.00 KiB/s, done.\r\n"
+    ],
+    [
+      0.005761,
+      "Resolving deltas:   0% (0/28282)   \r"
+    ],
+    [
+      0.013394,
+      "Resolving deltas:   1% (283/28282)   \r"
+    ],
+    [
+      0.011804,
+      "Resolving deltas:   2% (567/28282)   \r"
+    ],
+    [
+      0.015617,
+      "Resolving deltas:   3% (852/28282)   \r"
+    ],
+    [
+      0.012360,
+      "Resolving deltas:   4% (1146/28282)   \r"
+    ],
+    [
+      0.019987,
+      "Resolving deltas:   5% (1647/28282)   \r"
+    ],
+    [
+      0.007188,
+      "Resolving deltas:   6% (1811/28282)   \r"
+    ],
+    [
+      0.007503,
+      "Resolving deltas:   7% (2017/28282)   \r"
+    ],
+    [
+      0.009621,
+      "Resolving deltas:   8% (2272/28282)   \r"
+    ],
+    [
+      0.010516,
+      "Resolving deltas:   9% (2590/28282)   \r"
+    ],
+    [
+      0.019869,
+      "Resolving deltas:  10% (3073/28282)   \r"
+    ],
+    [
+      0.007189,
+      "Resolving deltas:  11% (3250/28282)   \r"
+    ],
+    [
+      0.005861,
+      "Resolving deltas:  12% (3409/28282)   \r"
+    ],
+    [
+      0.009666,
+      "Resolving deltas:  13% (3699/28282)   \r"
+    ],
+    [
+      0.009305,
+      "Resolving deltas:  14% (4056/28282)   \r"
+    ],
+    [
+      0.006139,
+      "Resolving deltas:  15% (4246/28282)   \r"
+    ],
+    [
+      0.008503,
+      "Resolving deltas:  16% (4546/28282)   \r"
+    ],
+    [
+      0.009531,
+      "Resolving deltas:  17% (4817/28282)   \r"
+    ],
+    [
+      0.012057,
+      "Resolving deltas:  18% (5140/28282)   \r"
+    ],
+    [
+      0.009085,
+      "Resolving deltas:  19% (5374/28282)   \r"
+    ],
+    [
+      0.010578,
+      "Resolving deltas:  20% (5657/28282)   \r"
+    ],
+    [
+      0.010350,
+      "Resolving deltas:  21% (5944/28282)   \r"
+    ],
+    [
+      0.018810,
+      "Resolving deltas:  22% (6390/28282)   \r"
+    ],
+    [
+      0.004442,
+      "Resolving deltas:  23% (6513/28282)   \r"
+    ],
+    [
+      0.010815,
+      "Resolving deltas:  24% (6813/28282)   \r"
+    ],
+    [
+      0.009914,
+      "Resolving deltas:  25% (7072/28282)   \r"
+    ],
+    [
+      0.014506,
+      "Resolving deltas:  26% (7462/28282)   \r"
+    ],
+    [
+      0.012183,
+      "Resolving deltas:  27% (7766/28282)   \r"
+    ],
+    [
+      0.005856,
+      "Resolving deltas:  28% (7930/28282)   \r"
+    ],
+    [
+      0.015352,
+      "Resolving deltas:  29% (8354/28282)   \r"
+    ],
+    [
+      0.005272,
+      "Resolving deltas:  30% (8490/28282)   \r"
+    ],
+    [
+      0.009096,
+      "Resolving deltas:  31% (8768/28282)   \r"
+    ],
+    [
+      0.011192,
+      "Resolving deltas:  32% (9158/28282)   \r"
+    ],
+    [
+      0.012896,
+      "Resolving deltas:  33% (9522/28282)   \r"
+    ],
+    [
+      0.004219,
+      "Resolving deltas:  34% (9637/28282)   \r"
+    ],
+    [
+      0.009370,
+      "Resolving deltas:  35% (9899/28282)   \r"
+    ],
+    [
+      0.011541,
+      "Resolving deltas:  36% (10193/28282)   \r"
+    ],
+    [
+      0.010548,
+      "Resolving deltas:  37% (10466/28282)   \r"
+    ],
+    [
+      0.014131,
+      "Resolving deltas:  38% (10830/28282)   \r"
+    ],
+    [
+      0.009739,
+      "Resolving deltas:  39% (11082/28282)   \r"
+    ],
+    [
+      0.017034,
+      "Resolving deltas:  40% (11543/28282)   \r"
+    ],
+    [
+      0.003492,
+      "Resolving deltas:  41% (11631/28282)   \r"
+    ],
+    [
+      0.009386,
+      "Resolving deltas:  42% (11881/28282)   \r"
+    ],
+    [
+      0.011950,
+      "Resolving deltas:  43% (12204/28282)   \r"
+    ],
+    [
+      0.008064,
+      "Resolving deltas:  44% (12447/28282)   \r"
+    ],
+    [
+      0.010130,
+      "Resolving deltas:  45% (12761/28282)   \r"
+    ],
+    [
+      0.011844,
+      "Resolving deltas:  46% (13080/28282)   \r"
+    ],
+    [
+      0.009024,
+      "Resolving deltas:  47% (13347/28282)   \r"
+    ],
+    [
+      0.009141,
+      "Resolving deltas:  48% (13649/28282)   \r"
+    ],
+    [
+      0.009155,
+      "Resolving deltas:  49% (13901/28282)   \r"
+    ],
+    [
+      0.008922,
+      "Resolving deltas:  50% (14148/28282)   \r"
+    ],
+    [
+      0.011276,
+      "Resolving deltas:  51% (14435/28282)   \r"
+    ],
+    [
+      0.008934,
+      "Resolving deltas:  52% (14707/28282)   \r"
+    ],
+    [
+      0.009669,
+      "Resolving deltas:  53% (15023/28282)   \r"
+    ],
+    [
+      0.009424,
+      "Resolving deltas:  54% (15332/28282)   \r"
+    ],
+    [
+      0.008923,
+      "Resolving deltas:  55% (15583/28282)   \r"
+    ],
+    [
+      0.015618,
+      "Resolving deltas:  56% (15955/28282)   \r"
+    ],
+    [
+      0.010959,
+      "Resolving deltas:  57% (16165/28282)   \r"
+    ],
+    [
+      0.008101,
+      "Resolving deltas:  58% (16404/28282)   \r"
+    ],
+    [
+      0.011565,
+      "Resolving deltas:  59% (16709/28282)   \r"
+    ],
+    [
+      0.022690,
+      "Resolving deltas:  60% (17072/28282)   \r"
+    ],
+    [
+      0.011270,
+      "Resolving deltas:  61% (17286/28282)   \r"
+    ],
+    [
+      0.013073,
+      "Resolving deltas:  62% (17538/28282)   \r"
+    ],
+    [
+      0.019154,
+      "Resolving deltas:  63% (17868/28282)   \r"
+    ],
+    [
+      0.015400,
+      "Resolving deltas:  64% (18117/28282)   \r"
+    ],
+    [
+      0.020061,
+      "Resolving deltas:  65% (18386/28282)   \r"
+    ],
+    [
+      0.022496,
+      "Resolving deltas:  66% (18780/28282)   \r"
+    ],
+    [
+      0.009798,
+      "Resolving deltas:  67% (18973/28282)   \r"
+    ],
+    [
+      0.013784,
+      "Resolving deltas:  68% (19267/28282)   \r"
+    ],
+    [
+      0.011051,
+      "Resolving deltas:  69% (19587/28282)   \r"
+    ],
+    [
+      0.008551,
+      "Resolving deltas:  70% (19850/28282)   \r"
+    ],
+    [
+      0.009006,
+      "Resolving deltas:  71% (20117/28282)   \r"
+    ],
+    [
+      0.013513,
+      "Resolving deltas:  72% (20386/28282)   \r"
+    ],
+    [
+      0.017670,
+      "Resolving deltas:  73% (20710/28282)   \r"
+    ],
+    [
+      0.009138,
+      "Resolving deltas:  74% (20938/28282)   \r"
+    ],
+    [
+      0.018422,
+      "Resolving deltas:  75% (21271/28282)   \r"
+    ],
+    [
+      0.011865,
+      "Resolving deltas:  76% (21505/28282)   \r"
+    ],
+    [
+      0.010689,
+      "Resolving deltas:  77% (21783/28282)   \r"
+    ],
+    [
+      0.014038,
+      "Resolving deltas:  78% (22077/28282)   \r"
+    ],
+    [
+      0.015736,
+      "Resolving deltas:  79% (22351/28282)   \r"
+    ],
+    [
+      0.015541,
+      "Resolving deltas:  80% (22718/28282)   \r"
+    ],
+    [
+      0.011857,
+      "Resolving deltas:  81% (22932/28282)   \r"
+    ],
+    [
+      0.013936,
+      "Resolving deltas:  82% (23203/28282)   \r"
+    ],
+    [
+      0.012867,
+      "Resolving deltas:  83% (23502/28282)   \r"
+    ],
+    [
+      0.012212,
+      "Resolving deltas:  84% (23769/28282)   \r"
+    ],
+    [
+      0.015451,
+      "Resolving deltas:  85% (24068/28282)   \r"
+    ],
+    [
+      0.014131,
+      "Resolving deltas:  86% (24355/28282)   \r"
+    ],
+    [
+      0.016127,
+      "Resolving deltas:  87% (24670/28282)   \r"
+    ],
+    [
+      0.011052,
+      "Resolving deltas:  88% (24894/28282)   \r"
+    ],
+    [
+      0.014989,
+      "Resolving deltas:  89% (25236/28282)   \r"
+    ],
+    [
+      0.019742,
+      "Resolving deltas:  90% (25590/28282)   \r"
+    ],
+    [
+      0.047071,
+      "Resolving deltas:  92% (26080/28282)   \r"
+    ],
+    [
+      0.015881,
+      "Resolving deltas:  93% (26376/28282)   \r"
+    ],
+    [
+      0.013594,
+      "Resolving deltas:  94% (26610/28282)   \r"
+    ],
+    [
+      0.014502,
+      "Resolving deltas:  95% (26888/28282)   \r"
+    ],
+    [
+      0.013900,
+      "Resolving deltas:  96% (27152/28282)   \r"
+    ],
+    [
+      0.014947,
+      "Resolving deltas:  97% (27469/28282)   \r"
+    ],
+    [
+      0.012918,
+      "Resolving deltas:  98% (27726/28282)   \r"
+    ],
+    [
+      0.013687,
+      "Resolving deltas:  99% (28003/28282)   \r"
+    ],
+    [
+      0.060164,
+      "Resolving deltas: 100% (28282/28282)   \r"
+    ],
+    [
+      0.000022,
+      "Resolving deltas: 100% (28282/28282), done.\r\n"
+    ],
+    [
+      0.051382,
+      "Checking connectivity... "
+    ],
+    [
+      0.003290,
+      "done.\r\n"
+    ],
+    [
+      0.139280,
+      "macbook-2:monolith sterling (master\u003e) $ "
+    ],
+    [
+      0.731405,
+      "c"
+    ],
+    [
+      0.183650,
+      "d"
+    ],
+    [
+      0.143922,
+      " "
+    ],
+    [
+      0.663601,
+      "c"
+    ],
+    [
+      0.072042,
+      "o"
+    ],
+    [
+      0.087962,
+      "m"
+    ],
+    [
+      0.109347,
+      "mons-lang/"
+    ],
+    [
+      0.506589,
+      "\r\n"
+    ],
+    [
+      0.086806,
+      "macbook-2:commons-lang sterling (master=) $ "
+    ],
+    [
+      0.257737,
+      "g"
+    ],
+    [
+      0.144005,
+      "r"
+    ],
+    [
+      0.072186,
+      "a"
+    ],
+    [
+      0.079880,
+      "d"
+    ],
+    [
+      0.064018,
+      "l"
+    ],
+    [
+      0.111991,
+      "e"
+    ],
+    [
+      0.080030,
+      "t"
+    ],
+    [
+      0.095817,
+      " "
+    ],
+    [
+      0.400034,
+      "i"
+    ],
+    [
+      0.072126,
+      "n"
+    ],
+    [
+      0.087902,
+      "i"
+    ],
+    [
+      0.088175,
+      "t"
+    ],
+    [
+      0.167821,
+      "\r\n"
+    ],
+    [
+      0.343015,
       "\u001b[0m"
     ],
     [
-      0.417525,
+      0.640611,
+      "\u001b[1m\u003e Connecting to Daemon\u001b[22m"
+    ],
+    [
+      0.116905,
+      "\u001b[22DParallel execution is an incubating feature.\r\n"
+    ],
+    [
+      0.000009,
+      "\u001b[1m\u003e Building 0% \u003e :wrapper\u001b[22m"
+    ],
+    [
+      0.108538,
+      "\u001b[24D:wrapper\u001b[0K\r\n:init\r\nMaven to Gradle conversion is an incubating feature.\r\n\u001b[1m\u003e Building 50% \u003e :init\u001b[22m\u001b[0K"
+    ],
+    [
+      0.135776,
+      "\u001b[22D\u001b[0K\r\nBUILD SUCCESSFUL\r\n\r\n"
+    ],
+    [
+      0.000008,
+      "Total time: 1.159 secs\r\n\u001b[0K"
+    ],
+    [
+      0.147052,
+      "\u001b[0m"
+    ],
+    [
+      0.443512,
+      "c"
+    ],
+    [
+      0.007844,
+      "macbook-2:commons-lang sterling (master=) $ "
+    ],
+    [
+      0.000007,
+      "c"
+    ],
+    [
+      0.176855,
+      "d"
+    ],
+    [
+      0.120078,
+      " "
+    ],
+    [
+      0.167966,
+      "."
+    ],
+    [
+      0.151362,
+      "."
+    ],
+    [
+      0.216531,
+      "\r\n"
+    ],
+    [
+      0.036463,
       "macbook-2:monolith sterling (master\u003e) $ "
+    ],
+    [
+      2.019635,
+      "v"
+    ],
+    [
+      0.079878,
+      "i"
+    ],
+    [
+      0.047987,
+      "m"
+    ],
+    [
+      0.088256,
+      " "
+    ],
+    [
+      1.184052,
+      "\u0008\u0008\u0008\u0008\u001b[K"
+    ],
+    [
+      0.215777,
+      "e"
+    ],
+    [
+      0.191963,
+      "c"
+    ],
+    [
+      0.048060,
+      "h"
+    ],
+    [
+      0.071964,
+      "o"
+    ],
+    [
+      0.112094,
+      " "
+    ],
+    [
+      0.136076,
+      "\""
+    ],
+    [
+      1.439831,
+      "i"
+    ],
+    [
+      0.055897,
+      "n"
+    ],
+    [
+      0.087940,
+      "c"
+    ],
+    [
+      0.104098,
+      "l"
+    ],
+    [
+      0.079915,
+      "u"
+    ],
+    [
+      0.032136,
+      "d"
+    ],
+    [
+      0.160096,
+      "e"
+    ],
+    [
+      0.199796,
+      "B"
+    ],
+    [
+      0.128202,
+      "u"
+    ],
+    [
+      0.055799,
+      "i"
+    ],
+    [
+      0.047911,
+      "l"
+    ],
+    [
+      0.080308,
+      "d"
+    ],
+    [
+      0.119878,
+      " "
+    ],
+    [
+      0.088055,
+      "'"
+    ],
+    [
+      0.855755,
+      "c"
+    ],
+    [
+      0.088219,
+      "o"
+    ],
+    [
+      0.143803,
+      "m"
+    ],
+    [
+      0.128210,
+      "m"
+    ],
+    [
+      0.111910,
+      "o"
+    ],
+    [
+      0.088077,
+      "n"
+    ],
+    [
+      0.063797,
+      "s"
+    ],
+    [
+      0.176282,
+      "-"
+    ],
+    [
+      0.183997,
+      "l"
+    ],
+    [
+      0.055813,
+      "a"
+    ],
+    [
+      0.120096,
+      "n"
+    ],
+    [
+      0.063937,
+      "g"
+    ],
+    [
+      0.184007,
+      "'"
+    ],
+    [
+      0.448120,
+      "\""
+    ],
+    [
+      0.305436,
+      " "
+    ],
+    [
+      0.174444,
+      "\u003e"
+    ],
+    [
+      0.120036,
+      "\u003e"
+    ],
+    [
+      0.111868,
+      " "
+    ],
+    [
+      0.440209,
+      "s"
+    ],
+    [
+      0.079773,
+      "e"
+    ],
+    [
+      0.064267,
+      "t"
+    ],
+    [
+      0.120043,
+      "tings.gradle "
+    ],
+    [
+      0.599848,
+      "\r\n"
+    ],
+    [
+      0.036730,
+      "macbook-2:monolith sterling (master *\u003e) $ "
+    ],
+    [
+      1.603388,
+      "g"
+    ],
+    [
+      0.167796,
+      "r"
+    ],
+    [
+      0.056184,
+      "a"
+    ],
+    [
+      0.087840,
+      "d"
+    ],
+    [
+      0.096090,
+      "l"
+    ],
+    [
+      0.096101,
+      "e"
+    ],
+    [
+      0.103764,
+      "t"
+    ],
+    [
+      0.576028,
+      " "
+    ],
+    [
+      1.552068,
+      "\r\n"
+    ],
+    [
+      0.344334,
+      "\u001b[0m"
+    ],
+    [
+      0.610976,
+      "\u001b[1m\u003e Connecting to Daemon\u001b[22m"
+    ],
+    [
+      0.118852,
+      "\u001b[22D[composite-build] Configuring participant: /Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/my-app\r\n[composite-build] Configuring participant: /Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/my-utils\r\n\u001b[1m\u003e Configuring \u003e 0/1 projects\u001b[22m"
+    ],
+    [
+      0.116772,
+      "\u001b[28D[composite-build] Configuring participant: /Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang\r\n"
+    ],
+    [
+      0.000008,
+      "\u001b[1m\u003e Building 0% \u003e :my-app__run\u001b[22m"
+    ],
+    [
+      0.090755,
+      "\u001b[28D\u001b[1m\u003e Building 0% \u003e :my-app__run \u003e :my-app:compileJava \u003e :my-utils:number-utils:compileJava\u001b[22m"
+    ],
+    [
+      0.097206,
+      "\u001b[87D:my-app__run\u001b[0K\r\n:my-app:compileJava\r\n"
+    ],
+    [
+      0.000009,
+      ":my-utils:number-utils:compileJava\r\n:my-utils:number-utils:processResources \u001b[33mUP-TO-DATE\u001b[39m\r\n:my-utils:number-utils:classes\r\n:my-utils:number-utils:jar\r\n"
+    ],
+    [
+      0.000003,
+      "\u001b[1m\u003e Building 0% \u003e :my-app__run \u003e :my-app:compileJava \u003e :my-utils:string-utils:compileJava\u001b[22m"
+    ],
+    [
+      0.095972,
+      "\u001b[87D:my-utils:string-utils:compileJava\u001b[0K\r\n"
+    ],
+    [
+      0.000009,
+      ":commons-lang3:compileJava\r\nwarning: [options] bootstrap class path not set in conjunction with -source 1.6\r\n"
+    ],
+    [
+      0.000003,
+      "\u001b[1m\u003e Building 0% \u003e :my-app__run \u003e :my-app:compileJava \u003e :my-utils:string-utils:compileJava \u003e :commons-lang3:compileJava\u001b[22m"
+    ],
+    [
+      0.102306,
+      "\u001b[116D/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/St"
+    ],
+    [
+      0.000009,
+      "ringEscapeUtils.java:614: error: unmappable character for encoding UTF8\r\n\u001b[1m\u003e Building 0% \u003e :my-app__run \u003e :my-app:compileJava \u003e :my-utils:string-utils:compileJava \u003e :commons-lang3:compileJava\u001b[22m"
+    ],
+    [
+      0.090994,
+      "\u001b[116D     * will become {@code \"\u003cFran�ais\u003e\"}\u003c/p\u003e\u001b[0K\r\n                                ^\r\n"
+    ],
+    [
+      0.000009,
+      "/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:44: error: unmappable character for encoding UTF8\r\n        {\"\\u00A9\", \"\u0026copy;\"}, // � - copyright sign\r\n"
+    ],
+    [
+      0.000003,
+      "                                 ^\r\n"
+    ],
+    [
+      0.000016,
+      "/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/tra"
+    ],
+    [
+      0.000012,
+      "nslate/EntityArrays.java:49: error: unmappable character for encoding UTF8\r\n"
+    ],
+    [
+      0.000003,
+      "        {\"\\u00AE\", \"\u0026reg;\"}, // � - registered trademark sign\r\n"
+    ],
+    [
+      0.000010,
+      "                                ^\r\n"
+    ],
+    [
+      0.000016,
+      "/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/tra"
+    ],
+    [
+      0.000003,
+      "nslate/EntityArrays.java:67: error: unmappable character for encoding UTF8\r\n"
+    ],
+    [
+      0.000009,
+      "        {\"\\u00C0\", \"\u0026Agrave;\"}, // � - uppercase A, grave accent\r\n"
+    ],
+    [
+      0.000003,
+      "                                   ^\r\n"
+    ],
+    [
+      0.000061,
+      "/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/tra"
+    ],
+    [
+      0.000008,
+      "nslate/EntityArrays.java:68: error: unmappable character for encoding UTF8\r\n        {\"\\u00C1\", \"\u0026Aacute;\"}, // � - uppercase A, acute accent\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:69: error: unmappable character for encoding UTF8\r\n"
+    ],
+    [
+      0.000011,
+      "        {\"\\u00C2\", \"\u0026Acirc;\"}, // � - uppercase A, circumflex accent\r\n                                  ^\r\n"
+    ],
+    [
+      0.000014,
+      "/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/tra"
+    ],
+    [
+      0.000009,
+      "nslate/EntityArrays.java:70: error: unmappable character for encoding UTF8\r\n"
+    ],
+    [
+      0.000010,
+      "        {\"\\u00C3\", \"\u0026Atilde;\"}, // � - uppercase A, tilde\r\n"
+    ],
+    [
+      0.000003,
+      "                                   ^\r\n"
+    ],
+    [
+      0.000164,
+      "/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:71: error: unmappable character for encoding UTF8\r\n        {\"\\u00C4\", \"\u0026Auml;\"}, // � - uppercase A, umlaut\r\n"
+    ],
+    [
+      0.000036,
+      "                                 ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:72: error: unmappable character for encoding UTF8\r\n        {\"\\u00C5\", \"\u0026Aring;\"}, // � - uppercase A, ring\r\n                                  ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:73: error: unmappable character for encoding UTF8\r\n        {\"\\u00C6\", \"\u0026AElig;\"}, // � - uppercase AE\r\n                                  ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:74: error: unmappable character for encoding UTF8\r\n        {\"\\u00C7\", \"\u0026Ccedil;\"}, // � - uppercase C, cedilla\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/mai"
+    ],
+    [
+      0.000005,
+      "n/java/org/apache/commons/lang3/text/translate/EntityArrays.java:75: error: unmappable character for encoding UTF8\r\n        {\"\\u00C8\", \"\u0026Egrave;\"}, // � - uppercase E, grave accent\r\n"
+    ],
+    [
+      0.000031,
+      "                                   ^\r\n"
+    ],
+    [
+      0.000017,
+      "/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/tra"
+    ],
+    [
+      0.000004,
+      "nslate/EntityArrays.java:76: error: unmappable character for encoding UTF8\r\n"
+    ],
+    [
+      0.000016,
+      "        {\"\\u00C9\", \"\u0026Eacute;\"}, // � - uppercase E, acute accent\r\n"
+    ],
+    [
+      0.000003,
+      "                                   ^\r\n"
+    ],
+    [
+      0.000018,
+      "/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/tra"
+    ],
+    [
+      0.000010,
+      "nslate/EntityArrays.java:77: error: unmappable character for encoding UTF8\r\n"
+    ],
+    [
+      0.000011,
+      "        {\"\\u00CA\", \"\u0026Ecirc;\"}, // � - uppercase E, circumflex accent\r\n"
+    ],
+    [
+      0.000003,
+      "                                  ^\r\n"
+    ],
+    [
+      0.000061,
+      "/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:78: error: unmappable character for encoding UTF8\r\n        {\"\\u00CB\", \"\u0026Euml;\"}, // � - uppercase E, umlaut\r\n                                 ^\r\n"
+    ],
+    [
+      0.000027,
+      "/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/tra"
+    ],
+    [
+      0.000006,
+      "nslate/EntityArrays.java:79: error: unmappable character for encoding UTF8\r\n        {\"\\u00CC\", \"\u0026Igrave;\"}, // � - uppercase I, grave accent\r\n                                   ^\r\n"
+    ],
+    [
+      0.000018,
+      "/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/tra"
+    ],
+    [
+      0.000012,
+      "nslate/EntityArrays.java:80: error: unmappable character for encoding UTF8\r\n"
+    ],
+    [
+      0.000003,
+      "        {\"\\u00CD\", \"\u0026Iacute;\"}, // � - uppercase I, acute accent\r\n"
+    ],
+    [
+      0.000007,
+      "                                   ^\r\n"
+    ],
+    [
+      0.000041,
+      "/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:81: error: unmappable character for encoding UTF8\r\n"
+    ],
+    [
+      0.000098,
+      "        {\"\\u00CE\", \"\u0026Icirc;\"}, // � - uppercase I, circumflex accent\r\n                                  ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:82: error: unmappable character for encoding UTF8\r\n        {\"\\u00CF\", \"\u0026Iuml;\"}, // � - uppercase I, umlaut\r\n                                 ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:83: error: unmappable character for encoding UTF8\r\n        {\"\\u00D0\", \"\u0026ETH;\"}, // � - uppercase Eth, Icelandic\r\n"
+    ],
+    [
+      0.000300,
+      "                                ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/tra"
+    ],
+    [
+      0.000238,
+      "nslate/EntityArrays.java:84: error: unmappable character for encoding UTF8\r\n        {\"\\u00D1\", \"\u0026Ntilde;\"}, // � - uppercase N, tilde\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:85: error: unmappable character for encoding UTF8\r\n        {\"\\u00D2\", \"\u0026Ograve;\"}, // � - uppercase O, grave accent\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:86: error: unmappable character for encoding UTF8\r\n        {\"\\u00D3\", \"\u0026Oacute;\"}, // � - uppercase O, acute accent\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:87: error: unmappable character for encoding UTF8\r\n        {\"\\u00D4\", \"\u0026Ocir"
+    ],
+    [
+      0.001604,
+      "c;\"}, // � - uppercase O, circumflex accent\r\n                                  ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:88: error: unmappable character for encoding UTF8\r\n        {\"\\u00D5\", \"\u0026Otilde;\"}, // � - uppercase O, tilde\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:89: error: unmappable character for encoding UTF8\r\n        {\"\\u00D6\", \"\u0026Ouml;\"}, // � - uppercase O, umlaut\r\n                                 ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:91: error: unmappable character for encoding UTF8\r\n        {\"\\u00D8\", \"\u0026Oslash;\"}, // � - uppercase O, slash\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-c"
+    ],
+    [
+      0.000018,
+      "omposite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:92: error: unmappable character for encoding UTF8\r\n"
+    ],
+    [
+      0.001807,
+      "        {\"\\u00D9\", \"\u0026Ugrave;\"}, // � - uppercase U, grave accent\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:93: error: unmappable character for encoding UTF8\r\n        {\"\\u00DA\", \"\u0026Uacute;\"}, // � - uppercase U, acute accent\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:94: error: unmappable character for encoding UTF8\r\n        {\"\\u00DB\", \"\u0026Ucirc;\"}, // � - uppercase U, circumflex accent\r\n                                  ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:95: error: unmappable character for encoding UTF8\r\n        {\"\\u00DC\", \"\u0026Uuml;\"}, // � - uppercase U, umlaut\r\n                               "
+    ],
+    [
+      0.000427,
+      "  ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:96: error: unmappable character for encoding UTF8\r\n        {\"\\u00DD\", \"\u0026Yacute;\"}, // � - uppercase Y, acute accent\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:97: error: unmappable character for encoding UTF8\r\n        {\"\\u00DE\", \"\u0026THORN;\"}, // � - uppercase THORN, Icelandic\r\n                                  ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:98: error: unmappable character for encoding UTF8\r\n        {\"\\u00DF\", \"\u0026szlig;\"}, // � - lowercase sharps, German\r\n                                  ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/jav"
+    ],
+    [
+      0.000262,
+      "a/org/apache/commons/lang3/text/translate/EntityArrays.java:99: error: unmappable character for encoding UTF8\r\n        {\"\\u00E0\", \"\u0026agrave;\"}, // � - lowercase a, grave accent\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:100: error: unmappable character for encoding UTF8\r\n        {\"\\u00E1\", \"\u0026aacute;\"}, // � - lowercase a, acute accent\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:101: error: unmappable character for encoding UTF8\r\n        {\"\\u00E2\", \"\u0026acirc;\"}, // � - lowercase a, circumflex accent\r\n                                  ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:102: error: unmappable charac"
+    ],
+    [
+      0.000318,
+      "ter for encoding UTF8\r\n        {\"\\u00E3\", \"\u0026atilde;\"}, // � - lowercase a, tilde\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:103: error: unmappable character for encoding UTF8\r\n        {\"\\u00E4\", \"\u0026auml;\"}, // � - lowercase a, umlaut\r\n                                 ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:104: error: unmappable character for encoding UTF8\r\n        {\"\\u00E5\", \"\u0026aring;\"}, // � - lowercase a, ring\r\n                                  ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:105: error: unmappable character for encoding UTF8\r\n"
+    ],
+    [
+      0.000364,
+      "        {\"\\u00E6\", \"\u0026aelig;\"}, // � - lowercase ae\r\n                                  ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:106: error: unmappable character for encoding UTF8\r\n"
+    ],
+    [
+      0.000229,
+      "        {\"\\u00E7\", \"\u0026ccedil;\"}, // � - lowercase c, cedilla\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:107: error: unmappable character for encoding UTF8\r\n        {\"\\u00E8\", \"\u0026egrave;\"}, // � - lowercase e, grave accent\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:108: error: unmappable character for encoding UTF8\r\n        {\"\\u00E9\", \"\u0026eacute;\"}, // � - lowercase e, acute accent\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:109: error: unmappable character for encoding UTF8\r\n        {\"\\u00EA\", \"\u0026ecirc;\"}, // � - lowercase e, circumflex accent\r\n                        "
+    ],
+    [
+      0.000184,
+      "          ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:110: error: unmappable character for encoding UTF8\r\n        {\"\\u00EB\", \"\u0026euml;\"}, // � - lowercase e, umlaut\r\n                                 ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:111: error: unmappable character for encoding UTF8\r\n        {\"\\u00EC\", \"\u0026igrave;\"}, // � - lowercase i, grave accent\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:112: error: unmappable character for encoding UTF8\r\n        {\"\\u00ED\", \"\u0026iacute;\"}, // � - lowercase i, acute accent\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/mai"
+    ],
+    [
+      0.000229,
+      "n/java/org/apache/commons/lang3/text/translate/EntityArrays.java:113: error: unmappable character for encoding UTF8\r\n        {\"\\u00EE\", \"\u0026icirc;\"}, // � - lowercase i, circumflex accent\r\n                                  ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:114: error: unmappable character for encoding UTF8\r\n        {\"\\u00EF\", \"\u0026iuml;\"}, // � - lowercase i, umlaut\r\n                                 ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:115: error: unmappable character for encoding UTF8\r\n        {\"\\u00F0\", \"\u0026eth;\"}, // � - lowercase eth, Icelandic\r\n                                ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:116: error: unmappable character for enc"
+    ],
+    [
+      0.000951,
+      "oding UTF8\r\n        {\"\\u00F1\", \"\u0026ntilde;\"}, // � - lowercase n, tilde\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:117: error: unmappable character for encoding UTF8\r\n        {\"\\u00F2\", \"\u0026ograve;\"}, // � - lowercase o, grave accent\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:118: error: unmappable character for encoding UTF8\r\n        {\"\\u00F3\", \"\u0026oacute;\"}, // � - lowercase o, acute accent\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/tra"
+    ],
+    [
+      0.000992,
+      "nslate/EntityArrays.java:119: error: unmappable character for encoding UTF8\r\n        {\"\\u00F4\", \"\u0026ocirc;\"}, // � - lowercase o, circumflex accent\r\n                                  ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:120: error: unmappable character for encoding UTF8\r\n        {\"\\u00F5\", \"\u0026otilde;\"}, // � - lowercase o, tilde\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:121: error: unmappable character for encoding UTF8\r\n        {\"\\u00F6\", \"\u0026ouml;\"}, // � - lowercase o, umlaut\r\n                                 ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:123: error: unmappable character for encoding UTF8\r\n        {\"\\u00F8\", \"\u0026oslash;"
+    ],
+    [
+      0.000265,
+      "\"}, // � - lowercase o, slash\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:124: error: unmappable character for encoding UTF8\r\n        {\"\\u00F9\", \"\u0026ugrave;\"}, // � - lowercase u, grave accent\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:125: error: unmappable character for encoding UTF8\r\n        {\"\\u00FA\", \"\u0026uacute;\"}, // � - lowercase u, acute accent\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:126: error: unmappable character for encoding UTF8\r\n        {\"\\u00FB\", \"\u0026ucirc;\"}, // � - lowercase u, circumflex accent\r\n                                  ^\r\n/Users/sterling/g"
+    ],
+    [
+      0.000571,
+      "its/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:127: error: unmappable character for encoding UTF8\r\n        {\"\\u00FC\", \"\u0026uuml;\"}, // � - lowercase u, umlaut\r\n                                 ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:128: error: unmappable character for encoding UTF8\r\n        {\"\\u00FD\", \"\u0026yacute;\"}, // � - lowercase y, acute accent\r\n                                   ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:129: error: unmappable character for encoding UTF8\r\n        {\"\\u00FE\", \"\u0026thorn;\"}, // � - lowercase thorn, Icelandic\r\n                                  ^\r\n/Users/sterling/gits/tmp/gs-2016-composite-builds/examples/monolith/commons-lang/src/main/java/org/apache/commons/lang3"
+    ],
+    [
+      0.000108,
+      "/text/tra"
+    ],
+    [
+      0.000007,
+      "nslate/EntityArrays.java:130: error: unmappable character for encoding UTF8\r\n        {\"\\u00FF\", \"\u0026yuml;\"}, // � - lowercase y, umlaut\r\n                                 ^\r\n\u001b[1m\u003e Building 0% \u003e :my-app__run \u003e :my-app:compileJava \u003e :my-utils:string-utils:compileJava \u003e :commons-lang3:compileJava\u001b[22m"
+    ],
+    [
+      1.316456,
+      "\u001b[116DNote: Some input files use or override a deprecated API.\u001b[0K\r\n"
+    ],
+    [
+      0.000008,
+      "\u001b[1m\u003e Building 0% \u003e :my-app__run \u003e :my-app:compileJava \u003e :my-utils:string-utils:compileJava \u003e :commons-lang3:compileJava\u001b[22m"
+    ],
+    [
+      0.087348,
+      "\u001b[116DNote: Recompile with -Xlint:deprecation for details.\u001b[0K\r\n1 warning\r\n"
+    ],
+    [
+      0.000010,
+      ":commons-lang3:processResources \u001b[33mUP-TO-DATE\u001b[39m\r\n:commons-lang3:classes\r\n\u001b[1m\u003e Building 0% \u003e :my-app__run \u003e :my-app:compileJava \u003e :my-utils:string-utils:compileJava \u003e :commons-lang3:jar\u001b[22m\u001b[0K"
+    ],
+    [
+      0.085953,
+      "\u001b[108D:commons-lang3:jar\u001b[0K\r\n"
+    ],
+    [
+      0.000008,
+      "\u001b[1m\u003e Building 0% \u003e :my-app__run \u003e :my-app:compileJava \u003e :my-utils:string-utils:compileJava\u001b[22m\u001b[0K"
+    ],
+    [
+      0.122937,
+      "\u001b[87D:my-utils:string-utils:processResources \u001b[33mUP-TO-DATE\u001b[39m\u001b[0K\r\n:my-utils:string-utils:classes\r\n:my-utils:string-utils:jar\r\n:my-app:processResources \u001b[33mUP-TO-DATE\u001b[39m\r\n:my-app:classes\r\n\u001b[1m\u003e Building 0% \u003e :my-app__run \u003e :my-app:run\u001b[22m\u001b[0K"
+    ],
+    [
+      0.111996,
+      "\u001b[42D:my-app:run\u001b[0K\r\nThe answer is 42\r\n\u001b[1m\u003e Building 0% \u003e :my-app__run \u003e :my-app:run\u001b[22m"
+    ],
+    [
+      0.031221,
+      "\u001b[42D\u001b[1A\u001b[16C\r\n\u001b[0K\r\n"
+    ],
+    [
+      0.000009,
+      "BUILD SUCCESSFUL\r\n\r\nTotal time: 3.317 secs\r\n\u001b[0K"
+    ],
+    [
+      0.001527,
+      "\u001b[0m"
+    ],
+    [
+      0.407434,
+      "macbook-2:monolith sterling (master *\u003e) $ "
     ]
   ]
 }
