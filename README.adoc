@@ -1,3 +1,5 @@
 = Composite Builds with Gradle
 
 Talk given at Gradle Summit 2016.
+
+Build with `./gradlew -t run asciidoctor` and go to http://localhost:5050

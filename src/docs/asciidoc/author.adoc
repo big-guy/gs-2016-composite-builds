@@ -8,6 +8,7 @@ task sterlingGreene(type: Speaker) {
     description = "Developer for 10 years"
 
     twitter = '@argfile'
+    github = 'big-guy'
     email = 'sterling@gradle.com'
 
     doLast {

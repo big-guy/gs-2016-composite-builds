@@ -1,6 +1,8 @@
 [data-background="images/summit-mountains.png"]
 == Thank you!
 
+Summit Survey: http://gradle.com/summit-survey
+
 Follow me: http://twitter.com/argfile[@argfile]
 
-Slides and examples: TODO
+Slides and examples: https://github.com/big-guy/gs-2016-composite-builds
